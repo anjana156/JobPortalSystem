@@ -1,0 +1,644 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\qualificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\qualificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\jobseekersignuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\jobseekersignuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\jobseekerloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\jobseekerloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\applyjobrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\applyjobrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\job\\requestobjects\\savejobrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\job\\requestobjects\\savejobrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\job\\requestobjects\\savedjobobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\job\\requestobjects\\savedjobobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\companyuser\\interviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\interviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\companyuser\\comapnycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\comapnycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\companyuser\\addcompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\addcompanycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\jobprovidersignuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\jobprovidersignuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\jobpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\jobpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\interviewscheduleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\interviewscheduleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\companyuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\companyuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\comapnyupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\comapnyupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\addcompanyrequestobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\addcompanyrequestobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\chat\\requestobjects\\chatuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\chat\\requestobjects\\chatuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\admin\\requestobjects\\skillrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\admin\\requestobjects\\skillrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\admin\\requestobjects\\locationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\admin\\requestobjects\\locationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\admin\\requestobjects\\industryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\admin\\requestobjects\\industryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\admin\\requestobjects\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\admin\\requestobjects\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\admin\\requestobjects\\adminloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\admin\\requestobjects\\adminloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\jobseeker\\jobseekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\jobseeker\\jobseekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\job\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\job\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\companyuser\\companyusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\companyusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\chat\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\chat\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\api\\controllers\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427185759_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Migrations\\20260427185759_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\domain\\models\\jobportaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\jobportaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427184716_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Migrations\\20260427184716_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427184156_inital creation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Migrations\\20260427184156_inital creation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\domain\\extensions\\addapplicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\extensions\\addapplicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\jobportalsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\domain\\models\\jobseekerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\jobseekerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\batch31asp.netcore\\asp.net-core-batch-31\\anjana web api\\jobportalsystem\\domain\\models\\jobprovidercompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\jobprovidercompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QualificationRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\QualificationRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\QualificationRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\QualificationRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\QualificationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:21:17.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobSeekerSignUpRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerSignUpRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerSignUpRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerSignUpRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerSignUpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:21:02.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JobSeekerLoginRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerLoginRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerLoginRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerLoginRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:20:45.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplyJobRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\ApplyJobRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\ApplyJobRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\ApplyJobRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\ApplyJobRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:20:26.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SavedJobObject.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SavedJobObject.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SavedJobObject.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SavedJobObject.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SavedJobObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:19:47.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaveJobRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SaveJobRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SaveJobRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SaveJobRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SaveJobRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:19:09.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InterviewController.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\InterviewController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\InterviewController.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\InterviewController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\InterviewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:18:19.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComapnyController.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\ComapnyController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\ComapnyController.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\ComapnyController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\ComapnyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:18:02.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddCompanyController.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\AddCompanyController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\AddCompanyController.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\AddCompanyController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\AddCompanyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:17:47.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JobProviderSignUpRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\JobProviderSignUpRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\JobProviderSignUpRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\JobProviderSignUpRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\JobProviderSignUpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:17:05.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JobPostRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\JobPostRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\JobPostRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\JobPostRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\JobPostRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:16:34.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InterviewScheduleObject.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\InterviewScheduleObject.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\InterviewScheduleObject.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\InterviewScheduleObject.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\InterviewScheduleObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:16:14.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CompanyUserRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\CompanyUserRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\CompanyUserRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\CompanyUserRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\CompanyUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:15:57.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ComapnyUpdateRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\ComapnyUpdateRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\ComapnyUpdateRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\ComapnyUpdateRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\ComapnyUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:15:42.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddCompanyRequestObject.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\AddCompanyRequestObject.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\AddCompanyRequestObject.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\AddCompanyRequestObject.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\AddCompanyRequestObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:15:24.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChatUserDto.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Chat\\RequestObjects\\ChatUserDto.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Chat\\RequestObjects\\ChatUserDto.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Chat\\RequestObjects\\ChatUserDto.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Chat\\RequestObjects\\ChatUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:14:46.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SkillRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\SkillRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\SkillRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\SkillRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\SkillRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:12:02.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LocationRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\LocationRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\LocationRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\LocationRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\LocationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:11:49.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IndustryRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\IndustryRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\IndustryRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\IndustryRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\IndustryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:11:34.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoryRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\CategoryRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\CategoryRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\CategoryRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\CategoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:11:17.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminLoginRequest.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\AdminLoginRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\AdminLoginRequest.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\AdminLoginRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\AdminLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:10:55.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "JobSeekerController.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\JobSeeker\\JobSeekerController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\JobSeeker\\JobSeekerController.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\JobSeeker\\JobSeekerController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\JobSeeker\\JobSeekerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:09:29.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Job\\JobController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Job\\JobController.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Job\\JobController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Job\\JobController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:09:02.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CompanyUserController.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\CompanyUserController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\CompanyUserController.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\CompanyUser\\CompanyUserController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\CompanyUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:08:34.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Chat\\ChatController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Chat\\ChatController.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Chat\\ChatController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Chat\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:08:02.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Admin\\AdminController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Admin\\AdminController.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\API\\Controllers\\Admin\\AdminController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Admin\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:06:43.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20260427185759_initial.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427185759_initial.cs",
+              "RelativeDocumentMoniker": "Domain\\Migrations\\20260427185759_initial.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427185759_initial.cs",
+              "RelativeToolTip": "Domain\\Migrations\\20260427185759_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:57:59.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20260427184716_initials.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427184716_initials.cs",
+              "RelativeDocumentMoniker": "Domain\\Migrations\\20260427184716_initials.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427184716_initials.cs",
+              "RelativeToolTip": "Domain\\Migrations\\20260427184716_initials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:47:17.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "JobPortalDbContext.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Models\\JobPortalDbContext.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\JobPortalDbContext.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Models\\JobPortalDbContext.cs",
+              "RelativeToolTip": "Domain\\Models\\JobPortalDbContext.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAqwIYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:45:10.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20260427184156_inital creation.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427184156_inital creation.cs",
+              "RelativeDocumentMoniker": "Domain\\Migrations\\20260427184156_inital creation.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427184156_inital creation.cs",
+              "RelativeToolTip": "Domain\\Migrations\\20260427184156_inital creation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:41:57.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "JobPortalSystem\\appsettings.json",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\appsettings.json",
+              "RelativeToolTip": "JobPortalSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-27T06:56:29.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "JobSeekerProfile.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Models\\JobSeekerProfile.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\JobSeekerProfile.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Models\\JobSeekerProfile.cs",
+              "RelativeToolTip": "Domain\\Models\\JobSeekerProfile.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:53:13.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "JobProviderCompany.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Models\\JobProviderCompany.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\JobProviderCompany.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Models\\JobProviderCompany.cs",
+              "RelativeToolTip": "Domain\\Models\\JobProviderCompany.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAywB8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:53:02.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-27T06:52:37.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AddApplicationServices.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Extensions\\AddApplicationServices.cs",
+              "RelativeDocumentMoniker": "Domain\\Extensions\\AddApplicationServices.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Extensions\\AddApplicationServices.cs",
+              "RelativeToolTip": "Domain\\Extensions\\AddApplicationServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:47:59.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\Program.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\Program.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\Program.cs",
+              "RelativeToolTip": "JobPortalSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:45:00.23Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

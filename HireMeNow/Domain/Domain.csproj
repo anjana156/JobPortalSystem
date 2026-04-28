@@ -1,0 +1,78 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Features\Admin\DTO\" />
+    <Folder Include="Application\Features\Admin\Interfaces\" />
+    <Folder Include="Application\Features\Admin\Repositories\" />
+    <Folder Include="Application\Features\Admin\Services\" />
+    <Folder Include="Application\Features\AuthUser\DTO\" />
+    <Folder Include="Application\Features\AuthUser\Interfaces\" />
+    <Folder Include="Application\Features\AuthUser\Repositories\" />
+    <Folder Include="Application\Features\AuthUser\Services\" />
+    <Folder Include="Application\Features\Job\DTO\" />
+    <Folder Include="Application\Features\Job\Interfaces\" />
+    <Folder Include="Application\Features\Job\Repositories\" />
+    <Folder Include="Application\Features\Job\Services\" />
+    <Folder Include="Application\Features\Chat\DTO\" />
+    <Folder Include="Application\Features\Chat\Interfaces\" />
+    <Folder Include="Application\Features\Chat\Repositories\" />
+    <Folder Include="Application\Features\Chat\Services\" />
+    <Folder Include="Application\Features\JobProvider\DTO\" />
+    <Folder Include="Application\Features\JobProvider\Interfaces\" />
+    <Folder Include="Application\Features\JobProvider\Repositories\" />
+    <Folder Include="Application\Features\JobProvider\Services\" />
+    <Folder Include="Application\Features\Profile\DTO\" />
+    <Folder Include="Application\Features\Profile\Interfaces\" />
+    <Folder Include="Application\Features\Profile\Repositories\" />
+    <Folder Include="Application\Features\Profile\Services\" />
+    <Folder Include="Application\Features\SignUp\DTO\" />
+    <Folder Include="Application\Features\SignUp\Interfaces\" />
+    <Folder Include="Application\Features\SignUp\Repositories\" />
+    <Folder Include="Application\Features\SignUp\Services\" />
+    <Folder Include="Application\Features\Login\DTO\" />
+    <Folder Include="Application\Features\Login\Interfaces\" />
+    <Folder Include="Application\Features\Login\Repositories\" />
+    <Folder Include="Application\Features\Login\Services\" />
+    <Folder Include="Application\Features\JobSeekers\DTO\" />
+    <Folder Include="Application\Features\JobSeekers\Interfaces\" />
+    <Folder Include="Application\Features\JobSeekers\Repositories\" />
+    <Folder Include="Application\Features\JobSeekers\Services\" />
+    <Folder Include="Application\Features\User\DTO\" />
+    <Folder Include="Application\Features\User\Interfaces\" />
+    <Folder Include="Application\Features\User\Repositories\" />
+    <Folder Include="Application\Features\User\Services\" />
+    <Folder Include="Infrastructure\AutoMapper\" />
+    <Folder Include="Infrastructure\ExternalServices\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="MailKit" Version="4.2.0" />
+    <PackageReference Include="MassTransit" Version="8.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MimeKit" Version="4.2.0" />
+    <PackageReference Include="SendGrid" Version="9.28.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.12" />
+  </ItemGroup>
+
+</Project>
