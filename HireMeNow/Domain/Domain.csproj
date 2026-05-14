@@ -7,14 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Application\Features\Admin\DTO\" />
-    <Folder Include="Application\Features\Admin\Interfaces\" />
-    <Folder Include="Application\Features\Admin\Repositories\" />
-    <Folder Include="Application\Features\Admin\Services\" />
-    <Folder Include="Application\Features\AuthUser\DTO\" />
-    <Folder Include="Application\Features\AuthUser\Interfaces\" />
-    <Folder Include="Application\Features\AuthUser\Repositories\" />
-    <Folder Include="Application\Features\AuthUser\Services\" />
+    <Compile Remove="Infrastructure\AutoMapper\**" />
+    <EmbeddedResource Remove="Infrastructure\AutoMapper\**" />
+    <None Remove="Infrastructure\AutoMapper\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Application\Features\Job\DTO\" />
     <Folder Include="Application\Features\Job\Interfaces\" />
     <Folder Include="Application\Features\Job\Repositories\" />
@@ -27,29 +25,14 @@
     <Folder Include="Application\Features\JobProvider\Interfaces\" />
     <Folder Include="Application\Features\JobProvider\Repositories\" />
     <Folder Include="Application\Features\JobProvider\Services\" />
-    <Folder Include="Application\Features\Profile\DTO\" />
     <Folder Include="Application\Features\Profile\Interfaces\" />
     <Folder Include="Application\Features\Profile\Repositories\" />
     <Folder Include="Application\Features\Profile\Services\" />
-    <Folder Include="Application\Features\SignUp\DTO\" />
-    <Folder Include="Application\Features\SignUp\Interfaces\" />
-    <Folder Include="Application\Features\SignUp\Repositories\" />
-    <Folder Include="Application\Features\SignUp\Services\" />
-    <Folder Include="Application\Features\Login\DTO\" />
-    <Folder Include="Application\Features\Login\Interfaces\" />
-    <Folder Include="Application\Features\Login\Repositories\" />
-    <Folder Include="Application\Features\Login\Services\" />
     <Folder Include="Application\Features\JobSeekers\DTO\" />
     <Folder Include="Application\Features\JobSeekers\Interfaces\" />
     <Folder Include="Application\Features\JobSeekers\Repositories\" />
     <Folder Include="Application\Features\JobSeekers\Services\" />
     <Folder Include="Application\Features\User\DTO\" />
-    <Folder Include="Application\Features\User\Interfaces\" />
-    <Folder Include="Application\Features\User\Repositories\" />
-    <Folder Include="Application\Features\User\Services\" />
-    <Folder Include="Infrastructure\AutoMapper\" />
-    <Folder Include="Infrastructure\ExternalServices\" />
-    <Folder Include="Helpers\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,16 +1,21 @@
-using Domain.Extensions;
+using JobPortalSystem.API.Extensions;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.HttpLogging;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddApplicationServices1(builder.Configuration);
-//builder.Services.AddAutoMapper(typeof(AutoMapperProfile).Assembly);
-//builder.Services.Configure<Domain.Helpers.MailSettings>(builder.Configuration.GetSection("MailSettings"));
+builder.Services.AddApplicationServices(builder.Configuration);
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
+builder.Services.Configure<Domain.Helpers.MailSettings>(builder.Configuration.GetSection("MailSettings"));
 builder.Services.AddControllers();
 builder.Services.AddSignalR();
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -26,18 +31,20 @@ builder.Services.AddSwaggerGen(options =>
 
     options.OperationFilter<SecurityRequirementsOperationFilter>();
 });
-//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-//    .AddJwtBearer(options =>
-//    {
-//        options.TokenValidationParameters = new TokenValidationParameters
-//        {
-//            ValidateIssuerSigningKey = true,
-//            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8
-//                .GetBytes(builder.Configuration.GetSection("AuthSettings:Token").Value)),
-//            ValidateIssuer = false,
-//            ValidateAudience = false
-//        };
-//    });
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8
+                .GetBytes(builder.Configuration.GetSection("AuthSettings:Token").Value)),
+            ValidateIssuer = false,
+            ValidateAudience = false
+        };
+    });
+
 builder.Services.AddCors(options => options.AddPolicy(name: "NgOrigins",
 policy =>
 {
@@ -71,7 +78,7 @@ app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowCredentials().SetIsOri
 app.UseSwagger();
 app.UseSwaggerUI();
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
