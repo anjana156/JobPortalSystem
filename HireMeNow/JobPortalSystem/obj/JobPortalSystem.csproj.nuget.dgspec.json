@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj": {}
+    "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj": {}
   },
   "projects": {
-    "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj": {
+    "D:\\Final Project\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\sofna\\.nuget\\packages\\",
-        "outputPath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\Domain\\obj\\",
+        "outputPath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -131,14 +131,14 @@
         }
       }
     },
-    "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj": {
+    "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
+        "projectUniqueName": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
         "projectName": "JobPortalSystem",
-        "projectPath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
+        "projectPath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
         "packagesPath": "C:\\Users\\sofna\\.nuget\\packages\\",
-        "outputPath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\obj\\",
+        "outputPath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -159,8 +159,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj"
+              "D:\\Final Project\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj"
               }
             }
           }

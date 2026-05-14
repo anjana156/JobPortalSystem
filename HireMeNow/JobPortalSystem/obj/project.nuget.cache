@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kV4v6zMTbhw=",
+  "dgSpecHash": "PdgOL4oSNYk=",
   "success": true,
-  "projectFilePath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
+  "projectFilePath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sofna\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\sofna\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -101,9 +101,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'AutoMapper' 12.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
-      "projectPath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
+      "projectPath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
+      "filePath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net9.0"
@@ -113,9 +113,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'MailKit' 4.2.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9j88-vvj5-vhgr",
-      "projectPath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
+      "projectPath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
+      "filePath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
       "libraryId": "MailKit",
       "targetGraphs": [
         "net9.0"
@@ -125,9 +125,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'MimeKit' 4.2.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g7hc-96xr-gvvx",
-      "projectPath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
+      "projectPath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
+      "filePath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
       "libraryId": "MimeKit",
       "targetGraphs": [
         "net9.0"
@@ -137,9 +137,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'MimeKit' 4.2.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-gmc6-fwg3-75m5",
-      "projectPath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
+      "projectPath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Aitrich\\Batch31\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
+      "filePath": "D:\\Final Project\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
       "libraryId": "MimeKit",
       "targetGraphs": [
         "net9.0"
