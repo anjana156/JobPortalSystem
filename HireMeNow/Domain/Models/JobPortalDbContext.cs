@@ -46,7 +46,11 @@ namespace Domain.Models
 
         public virtual DbSet<Resume> Resumes { get; set; }
 
+<<<<<<< HEAD
         public virtual DbSet<UserRole> Roles { get; set; }
+=======
+        public virtual DbSet<UserRole> UserRoles { get; set; }
+>>>>>>> origin/sofnanash
 
         public virtual DbSet<Skill> Skills { get; set; }
         public virtual DbSet<SavedJob> SavedJobs { get; set; }

@@ -7,9 +7,14 @@ using System.Threading.Tasks;
 
 namespace Domain.Models
 {
+<<<<<<< HEAD
     [Table("UserRoles")]
+=======
+    [Table("UserRole")]
+>>>>>>> origin/sofnanash
     public partial class UserRole
     {
+        
         public Guid? Id { get; set; }
 
         public string? Name { get; set; }

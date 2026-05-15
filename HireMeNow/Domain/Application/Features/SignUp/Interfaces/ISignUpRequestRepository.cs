@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+<<<<<<< HEAD
 namespace Domain.Service.SignUp.Interfaces
 {
     public interface ISignUpRequestRepository
@@ -27,5 +28,17 @@ namespace Domain.Service.SignUp.Interfaces
         public Task<byte[]> getResumeFile(Guid resumeId);
 
         public Task DeleteResume(Guid resumeId);
+=======
+namespace Domain.Application.Features.SignUp.Interfaces
+{
+    public interface ISignUpRequestRepository
+    {
+
+        Guid AddSignupRequest(SignUpRequest signUpRequest);
+        Task<SignUpRequest> GetSignupRequestByIdAsync(Guid signupId);
+        void UpdateSignupRequest(SignUpRequest signUpRequest);
+        Task<SignUpRequest> GetByEmailAsync(string email);
+       
+>>>>>>> origin/sofnanash
     }
 }

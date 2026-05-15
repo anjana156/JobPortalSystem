@@ -12,7 +12,7 @@ namespace Domain.Models
     {
 
         public string? Password { get; set; }
-        //for chat
+        
         public string? ConnectionId { get; set; }
         public bool? OnlineStatus { get; set; } = false;
 

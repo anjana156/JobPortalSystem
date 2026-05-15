@@ -1,4 +1,5 @@
 ﻿using Domain.Helpers;
+<<<<<<< HEAD
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using MimeKit;
@@ -19,6 +20,25 @@ namespace Domain.Infrastructure.ExternalServices
         private readonly MailSettings _mailSettings;
         private readonly IConfiguration _config;
         public EmailService(IOptions<Helpers.MailSettings> mailSettings, IConfiguration config)
+=======
+using MailKit.Net.Smtp;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Options;
+using MimeKit;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Domain.Service
+{
+    public class EmailService: IEmailService
+    {
+        private readonly MailSettings _mailSettings;
+        private readonly IConfiguration _config;
+        public EmailService(IOptions<MailSettings> mailSettings, IConfiguration config)
+>>>>>>> origin/sofnanash
         {
             _mailSettings = mailSettings.Value;
             _config = config;
@@ -37,7 +57,11 @@ namespace Domain.Infrastructure.ExternalServices
                 var builder = new BodyBuilder();
                 builder.HtmlBody = mailRequest.Body;
                 email.Body = builder.ToMessageBody();
+<<<<<<< HEAD
                 using var smtp = new MailKit.Net.Smtp.SmtpClient();
+=======
+                using var smtp = new SmtpClient();
+>>>>>>> origin/sofnanash
                 smtp.Connect(_mailSettings.Host, _mailSettings.Port, _mailSettings.UseSSL);
                 //var DoAuthenticate =_config.GetSection("MailSettings")["DoAuthenticate"] ;
                 //if (DoAuthenticate)
@@ -47,10 +71,19 @@ namespace Domain.Infrastructure.ExternalServices
                 await smtp.SendAsync(email);
                 smtp.Disconnect(true);
             }
+<<<<<<< HEAD
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
             }
         }
+=======
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+>>>>>>> origin/sofnanash
     }
 }

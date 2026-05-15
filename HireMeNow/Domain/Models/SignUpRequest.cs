@@ -25,6 +25,11 @@ namespace Domain.Models
         public string Email { get; set; }
         public Status Status { get; set; }
 
+<<<<<<< HEAD
         public Role Role { get; set; }
+=======
+        public Enums.Role Role { get; set; }
+
+>>>>>>> origin/sofnanash
     }
 }

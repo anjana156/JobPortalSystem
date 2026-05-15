@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using AutoMapper;
 using Domain.Models;
 using Domain.Service.SignUp.DTOs;
@@ -33,5 +34,20 @@ namespace Domain.Service.SignUp.Interfaces
         Task UpdateResume(Guid resumeId, byte[] fileData);
 
         Task DeleteResume(Guid resumeId);
+=======
+﻿using Domain.Application.Features.SignUp.DTO;
+using Domain.Models;
+
+namespace Domain.Application.Features.SignUp.In
+{
+    public interface ISignUpRequestService
+    {
+        Task<Guid> CreateSignupRequest(SignUpRequestDto data);
+        Task<bool> VerifyEmailAsync(Guid signupId);
+        Task CreateUserAccount(Guid signupId, string password);
+
+
+
+>>>>>>> origin/sofnanash
     }
 }
