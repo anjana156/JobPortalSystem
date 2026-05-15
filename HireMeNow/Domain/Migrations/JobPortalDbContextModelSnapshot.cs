@@ -443,7 +443,7 @@ namespace Domain.Migrations
                     b.Property<Guid>("Id")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("Discription")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasMaxLength(10)
                         .HasColumnType("nchar(10)")
@@ -574,24 +574,6 @@ namespace Domain.Migrations
                     b.ToTable("Resume", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Models.Role", b =>
-                {
-                    b.Property<string>("Description")
-                        .HasMaxLength(50)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(50)");
-
-                    b.Property<Guid?>("Id")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("Name")
-                        .HasMaxLength(50)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(50)");
-
-                    b.ToTable("Role", (string)null);
-                });
-
             modelBuilder.Entity("Domain.Models.SavedJob", b =>
                 {
                     b.Property<Guid>("Id")
@@ -637,6 +619,9 @@ namespace Domain.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Role")
+                        .HasColumnType("int");
+
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
@@ -669,6 +654,24 @@ namespace Domain.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Skill", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Models.UserRole", b =>
+                {
+                    b.Property<string>("Description")
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<Guid?>("Id")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(50)");
+
+                    b.ToTable("UserRole", (string)null);
                 });
 
             modelBuilder.Entity("Domain.Models.WorkExperience", b =>

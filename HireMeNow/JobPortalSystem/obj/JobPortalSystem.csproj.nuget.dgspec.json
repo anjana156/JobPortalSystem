@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\JobPortalSystem.csproj": {}
+    "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj": {}
   },
   "projects": {
-    "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Domain.csproj": {
+    "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\obj\\",
+        "projectPath": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,10 +26,12 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {}
           }
@@ -44,10 +46,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "AutoMapper": {
@@ -127,24 +130,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\JobPortalSystem.csproj": {
+    "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\JobPortalSystem.csproj",
+        "projectUniqueName": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
         "projectName": "JobPortalSystem",
-        "projectPath": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\JobPortalSystem.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\JobPortalSystem\\obj\\",
+        "projectPath": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\JobPortalSystem.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -153,14 +156,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "net9.0": {
+            "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Domain.csproj"
+              "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj"
               }
             }
           }
@@ -175,10 +180,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net9.0": {
+          "framework": "net9.0",
           "targetAlias": "net9.0",
           "dependencies": {
             "AutoMapper": {
@@ -196,6 +202,10 @@
             "MassTransit": {
               "target": "Package",
               "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
@@ -261,7 +271,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

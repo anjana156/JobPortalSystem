@@ -1,5 +1,9 @@
 ﻿using AutoMapper;
+using Domain.Application.Features.JobProvider.DTO;
+using Domain.Application.Features.JobProvider.Interfaces;
+using Domain.Helpers;
 using Domain.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +29,8 @@ namespace Domain.Application.Features.JobProvider.Repositories
                 _context.JobProviderCompanies.AddAsync(data);
                 await _context.SaveChangesAsync();
                 var CmpanyId = data.Id;
-                AuthUser user = _context.AuthUsers.Where(e => e.Id == UserId).FirstOrDefault();
+                //AuthUser user = _context.AuthUsers.Where(e => e.Id == UserId).FirstOrDefault();
+                Domain.Models.AuthUser user = _context.AuthUsers.Where(e => e.Id == UserId).FirstOrDefault();
                 CompanyUser companyUser = new CompanyUser();
                 var cmp = _context.CompanyUsers.Where(e => e.Id == UserId).FirstOrDefault();
 
@@ -115,7 +120,7 @@ namespace Domain.Application.Features.JobProvider.Repositories
             companyMember.Company = companyId;
             var companyMemberDtos = mapper.Map<CompanyUser>(companyMember);
 
-            var authUserDtos = mapper.Map<AuthUser>(companyMember);
+            var authUserDtos = mapper.Map<Domain.Models.AuthUser>(companyMember);
             _context.CompanyUsers.Add(companyMemberDtos);
             _context.AuthUsers.Add(authUserDtos);
             await _context.SaveChangesAsync();

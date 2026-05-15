@@ -1,4 +1,6 @@
-﻿using Domain.Application.Features.JobProvider.Repositories;
+﻿using Domain.Application.Features.JobProvider.DTO;
+using Domain.Application.Features.JobProvider.Interfaces;
+using Domain.Helpers;
 using Domain.Models;
 using System;
 using System.Collections.Generic;

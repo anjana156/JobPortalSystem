@@ -1,6 +1,9 @@
 ﻿using AutoMapper;
-using AutoMapper.Internal;
-using Domain.Application.Features.JobProvider.Repositories;
+using Domain.Application.Features.Authuser.Interfaces;
+using Domain.Application.Features.JobProvider.Interfaces;
+using Domain.Application.Features.SignUp.DTO;
+using Domain.Helpers;
+using Domain.Infrastructure.ExternalServices;
 using Domain.Models;
 using System;
 using System.Collections.Generic;
@@ -8,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Application.Features.JobProvider.Services
+namespace Domain.Application.Features.JobProvider.Repositories
 {
     public class JobProviderService : IJobProviderService
     {

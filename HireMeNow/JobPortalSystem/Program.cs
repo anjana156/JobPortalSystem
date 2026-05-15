@@ -1,13 +1,20 @@
+using Domain.Application.Features.JobProvider.Interfaces;
+using Domain.Application.Features.JobProvider.Repositories;
 using Domain.Extensions;
+using Domain.Helpers;
+using HireMeNow_WebApi.Extensions;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.HttpLogging;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddApplicationServices1(builder.Configuration);
-//builder.Services.AddAutoMapper(typeof(AutoMapperProfile).Assembly);
+builder.Services.AddApplicationServices(builder.Configuration);
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
 //builder.Services.Configure<Domain.Helpers.MailSettings>(builder.Configuration.GetSection("MailSettings"));
 builder.Services.AddControllers();
 builder.Services.AddSignalR();
@@ -26,18 +33,18 @@ builder.Services.AddSwaggerGen(options =>
 
     options.OperationFilter<SecurityRequirementsOperationFilter>();
 });
-//builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-//    .AddJwtBearer(options =>
-//    {
-//        options.TokenValidationParameters = new TokenValidationParameters
-//        {
-//            ValidateIssuerSigningKey = true,
-//            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8
-//                .GetBytes(builder.Configuration.GetSection("AuthSettings:Token").Value)),
-//            ValidateIssuer = false,
-//            ValidateAudience = false
-//        };
-//    });
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8
+                .GetBytes(builder.Configuration.GetSection("AuthSettings:Token").Value)),
+            ValidateIssuer = false,
+            ValidateAudience = false
+        };
+    });
 builder.Services.AddCors(options => options.AddPolicy(name: "NgOrigins",
 policy =>
 {
@@ -55,6 +62,10 @@ builder.Services.AddHttpLogging(logging =>
 
 });
 
+
+
+builder.Services.AddScoped<IJobProviderRepository, JobProviderRepository>();
+builder.Services.AddScoped<IJobProviderService, JobProviderService>();
 
 var app = builder.Build();
 

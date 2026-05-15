@@ -1,6 +1,11 @@
-﻿namespace JobPortalSystem.API.Controllers.CompanyUser
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace JobPortalSystem.API.Controllers.CompanyUser
 {
-    public class AddCompanyController
+    [Route("api/[controller]")]
+    [ApiController]
+    public class AddCompanyController : ControllerBase
     {
+
     }
 }

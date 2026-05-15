@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
+using Domain.Application.Features.JobProvider.Interfaces;
 using Domain.Enums;
 using Domain.Models;
-using Domain.Application.Features.JobProvider.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -118,7 +118,7 @@ namespace Domain.Application.Features.JobProvider.Repositories
             {
                 jobToUpdate.JobTitle = Updatedjob.JobTitle;
                 jobToUpdate.JobSummary = Updatedjob.JobSummary;
-                jobToUpdate.Location_Id = Updatedjob.Location_Id;
+                jobToUpdate.LocationId = Updatedjob.LocationId;
                 jobToUpdate.Company = Updatedjob.Company;
                 jobToUpdate.JobCategory = Updatedjob.JobCategory;
                 jobToUpdate.Industry = Updatedjob.Industry;

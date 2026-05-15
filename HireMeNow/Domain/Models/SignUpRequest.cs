@@ -24,5 +24,7 @@ namespace Domain.Models
         [EmailAddress]
         public string Email { get; set; }
         public Status Status { get; set; }
+
+        public Role Role { get; set; }
     }
 }

@@ -1,6 +1,10 @@
 ﻿using AutoMapper;
+using Domain.Application.Features.JobProvider.DTO;
+using Domain.Application.Features.JobProvider.Interfaces;
 using Domain.Enums;
+using Domain.Helpers;
 using Domain.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;

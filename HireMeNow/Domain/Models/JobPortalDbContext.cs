@@ -46,7 +46,7 @@ namespace Domain.Models
 
         public virtual DbSet<Resume> Resumes { get; set; }
 
-        public virtual DbSet<Role> Roles { get; set; }
+        public virtual DbSet<UserRole> Roles { get; set; }
 
         public virtual DbSet<Skill> Skills { get; set; }
         public virtual DbSet<SavedJob> SavedJobs { get; set; }
@@ -213,7 +213,7 @@ namespace Domain.Models
                 entity.ToTable("Location");
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
-                entity.Property(e => e.Discription)
+                entity.Property(e => e.Description)
                     .HasMaxLength(10)
                     .IsFixedLength();
                 entity.Property(e => e.Name)
@@ -244,11 +244,11 @@ namespace Domain.Models
                 entity.Property(e => e.Id).ValueGeneratedNever();
             });
 
-            modelBuilder.Entity<Role>(entity =>
+            modelBuilder.Entity<UserRole>(entity =>
             {
                 entity
                     .HasNoKey()
-                    .ToTable("Role");
+                    .ToTable("UserRole");
 
                 entity.Property(e => e.Description)
                     .HasMaxLength(50)
