@@ -27,7 +27,7 @@ namespace JobPortalSystem.Extensions
             //services.AddScoped<ILoginRequestRepository, LoginRequestRepository>();
             //services.AddScoped<ISignUpRequestRepository, SignUpRequestRepository>();
             //services.AddScoped<ISignUpRequestService, SignUpRequestService>();
-            services.AddScoped<IAuthUserRepository, AuthUserRepository>();
+            //services.AddScoped<IAuthUserRepository, AuthUserRepository>();
             //services.AddScoped<IAuthUserService, AuthUserService>();
 
             //services.AddScoped<IJobProviderService, JobProviderService>();
