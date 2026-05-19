@@ -9,14 +9,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+<<<<<<< HEAD
 namespace Domain.Service
 {
     public class EmailService: IEmailService
+=======
+namespace Domain.Infrastructure.ExternalServices
+{
+    public class EmailService : IEmailService
+>>>>>>> origin/nasilanasry
     {
         private readonly MailSettings _mailSettings;
         private readonly IConfiguration _config;
         public EmailService(IOptions<MailSettings> mailSettings, IConfiguration config)
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/nasilanasry
         {
             _mailSettings = mailSettings.Value;
             _config = config;
@@ -36,7 +45,10 @@ namespace Domain.Service
                 builder.HtmlBody = mailRequest.Body;
                 email.Body = builder.ToMessageBody();
                 using var smtp = new SmtpClient();
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/nasilanasry
                 smtp.Connect(_mailSettings.Host, _mailSettings.Port, _mailSettings.UseSSL);
                 //var DoAuthenticate =_config.GetSection("MailSettings")["DoAuthenticate"] ;
                 //if (DoAuthenticate)
@@ -46,6 +58,7 @@ namespace Domain.Service
                 await smtp.SendAsync(email);
                 smtp.Disconnect(true);
             }
+<<<<<<< HEAD
             catch (Exception)
             {
                 throw;
@@ -53,5 +66,12 @@ namespace Domain.Service
         }
 
 
+=======
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+        }
+>>>>>>> origin/nasilanasry
     }
 }

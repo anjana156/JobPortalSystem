@@ -15,7 +15,7 @@ namespace Domain.Models
 
         public string JobSummary { get; set; } = null!;
         [ForeignKey(nameof(Location))]
-        public Guid LocationId { get; set; }
+        public Guid Location_Id { get; set; }
 
         [ForeignKey(nameof(Company))]
         public Guid CompanyId { get; set; }

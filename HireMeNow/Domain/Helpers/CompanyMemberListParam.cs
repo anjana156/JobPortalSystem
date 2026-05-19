@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Helpers
 {
+<<<<<<< HEAD
     public class CompanyMemberListParam : PaginationParams
     {
 
@@ -14,3 +15,9 @@ namespace Domain.Helpers
     }
 }
 
+=======
+    public class CompanyMemberListParam
+    {
+    }
+}
+>>>>>>> origin/nasilanasry

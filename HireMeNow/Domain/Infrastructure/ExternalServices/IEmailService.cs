@@ -11,4 +11,8 @@ namespace Domain.Infrastructure.ExternalServices
     {
         Task SendEmailAsync(MailRequest mailRequest);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/nasilanasry

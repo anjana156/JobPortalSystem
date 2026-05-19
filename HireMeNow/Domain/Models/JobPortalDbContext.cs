@@ -46,9 +46,13 @@ namespace Domain.Models
 
         public virtual DbSet<Resume> Resumes { get; set; }
 
+<<<<<<< HEAD
 
         public virtual DbSet<UserRole> UserRoles { get; set; }
 
+=======
+        public virtual DbSet<UserRole>  UserRoles { get; set; }
+>>>>>>> origin/nasilanasry
 
         public virtual DbSet<Skill> Skills { get; set; }
         public virtual DbSet<SavedJob> SavedJobs { get; set; }
@@ -135,7 +139,7 @@ namespace Domain.Models
 
                 entity.HasOne(j => j.Location)
                     .WithMany()
-                    .HasForeignKey(j => j.LocationId)
+                    .HasForeignKey(j => j.Location_Id)
                     .OnDelete(DeleteBehavior.NoAction);
 
                 entity.HasOne(j => j.PostedByNavigation)

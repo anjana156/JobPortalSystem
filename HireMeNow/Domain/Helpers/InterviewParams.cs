@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Helpers
 {
+<<<<<<< HEAD
     public class InterviewParams : PaginationParams
+=======
+    public class InterviewParams
+>>>>>>> origin/nasilanasry
     {
     }
 }

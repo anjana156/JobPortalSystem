@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\",
   "Documents": [
     {
@@ -196,6 +197,303 @@
     {
       "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|d:\\jobportalfinal\\jobportalsystem\\hiremenow\\domain\\helpers\\interviewparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\helpers\\interviewparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\extensions\\applicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\extensions\\applicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\profile\\interfaces\\ijobseekerprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\profile\\interfaces\\ijobseekerprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\profile\\repositories\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\profile\\repositories\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\profile\\interfaces\\ijobseekerprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\profile\\interfaces\\ijobseekerprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\profile\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\profile\\services\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\extensions\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\extensions\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\jobseekers\\interfaces\\ijobseekerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\jobseekers\\interfaces\\ijobseekerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\jobseekers\\interfaces\\ijobseeekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\jobseekers\\interfaces\\ijobseeekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\jobseekers\\repositories\\jobseekerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\jobseekers\\repositories\\jobseekerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\extensions\\addapplicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\extensions\\addapplicationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\jobseeker\\jobseekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\jobseeker\\jobseekercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FAB6024-9585-4F45-9D95-58D8A4F7E2D4}|Solution Items{3FAB6024-9585-4F45-9D95-58D8A4F7E2D4}|C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3FAB6024-9585-4F45-9D95-58D8A4F7E2D4}|Solution Items{3FAB6024-9585-4F45-9D95-58D8A4F7E2D4}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\models\\jobportaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\jobportaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\models\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\signuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\models\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\infrastructure\\externalservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\infrastructure\\externalservices\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\profile\\dtos\\jobseekerprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\profile\\dtos\\jobseekerprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\profile\\dtos\\jobseekerworkexperiencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\profile\\dtos\\jobseekerworkexperiencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\profile\\dtos\\jobseekerqualificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\profile\\dtos\\jobseekerqualificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\profile\\dtos\\resumedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\profile\\dtos\\resumedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\job\\repositories\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\job\\repositories\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\helpers\\joblistparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\helpers\\joblistparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\models\\jobseekerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\jobseekerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\models\\jobseekerprofileskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\jobseekerprofileskill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\infrastructure\\externalservices\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\infrastructure\\externalservices\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\profile\\dtos\\experiencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\profile\\dtos\\experiencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\profile\\dtos\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\profile\\dtos\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\profile\\dtos\\skilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\profile\\dtos\\skilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\job\\interfaces\\ijobservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\job\\interfaces\\ijobservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\job\\interfaces\\ijobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\job\\interfaces\\ijobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\job\\dtos\\savedjobsdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\job\\dtos\\savedjobsdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\job\\dtos\\jobpostsdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\job\\dtos\\jobpostsdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\job\\dtos\\appliedjobsdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\job\\dtos\\appliedjobsdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\jobseekersignuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\jobseekersignuprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\qualificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\qualificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\jobseekers\\services\\jobseekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\jobseekers\\services\\jobseekerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\application\\features\\job\\services\\jobservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\application\\features\\job\\services\\jobservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\applyjobrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\applyjobrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\job\\requestobjects\\savedjobobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\job\\requestobjects\\savedjobobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\job\\requestobjects\\savejobrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\job\\requestobjects\\savejobrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\job\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\job\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\admin\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\helpers\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\helpers\\paginationparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\helpers\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\helpers\\mailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\helpers\\mailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\helpers\\mailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\helpers\\companymemberlistparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\helpers\\companymemberlistparam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\helpers\\interviewparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\helpers\\interviewparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\helpers\\paginationheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\helpers\\paginationheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\helpers\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\helpers\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\jobseekerloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\jobseeker\\requestobjects\\jobseekerloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\chat\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\chat\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\jobpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\jobpostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\interviewscheduleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\interviewscheduleobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\companyuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\companyuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\comapnyupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\comapnyupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\addcompanyrequestobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\requestobjects\\addcompanyrequestobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\chat\\requestobjects\\chatuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\chat\\requestobjects\\chatuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\admin\\requestobjects\\skillrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\admin\\requestobjects\\skillrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\admin\\requestobjects\\locationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\admin\\requestobjects\\locationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\admin\\requestobjects\\industryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\admin\\requestobjects\\industryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\admin\\requestobjects\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\admin\\requestobjects\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\admin\\requestobjects\\adminloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\admin\\requestobjects\\adminloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\jobportalsystem\\api\\controllers\\companyuser\\companyusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C7468FC-F23B-BEFD-A76B-C05927AE2D67}|JobPortalSystem\\JobPortalSystem.csproj|solutionrelative:jobportalsystem\\api\\controllers\\companyuser\\companyusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427184716_initials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427184156_inital creation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\models\\jobprovidercompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\models\\jobprovidercompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|c:\\users\\user\\onedrive\\desktop\\jobportalsystem\\jobportalsystem\\hiremenow\\domain\\migrations\\20260513065232_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E528BBC3-1C26-8C35-F682-23718816ADCD}|Domain\\Domain.csproj|solutionrelative:domain\\migrations\\20260513065232_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> origin/nasilanasry
     }
   ],
   "DocumentGroupContainers": [
@@ -209,6 +507,7 @@
           "Children": [
             {
               "$type": "Bookmark",
+<<<<<<< HEAD
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
@@ -216,10 +515,55 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+=======
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IJobSeekerProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\Interfaces\\IJobSeekerProfileService.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Profile\\Interfaces\\IJobSeekerProfileService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\Interfaces\\IJobSeekerProfileService.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Profile\\Interfaces\\IJobSeekerProfileService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA/wCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:30:23.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\Repositories\\ProfileRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Profile\\Repositories\\ProfileRepository.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\Repositories\\ProfileRepository.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Profile\\Repositories\\ProfileRepository.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAAANgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:31:10.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IJobSeekerProfileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\Interfaces\\IJobSeekerProfileRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Profile\\Interfaces\\IJobSeekerProfileRepository.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\Interfaces\\IJobSeekerProfileRepository.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Profile\\Interfaces\\IJobSeekerProfileRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:29:41.565Z",
+              "EditorCaption": ""
+            },
+            {
+>>>>>>> origin/nasilanasry
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+<<<<<<< HEAD
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
@@ -251,11 +595,37 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T06:49:30.611Z",
+=======
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationServices.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Extensions\\ApplicationServices.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Extensions\\ApplicationServices.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Extensions\\ApplicationServices.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Extensions\\ApplicationServices.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T07:20:39.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\Services\\ProfileService.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Profile\\Services\\ProfileService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\Services\\ProfileService.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Profile\\Services\\ProfileService.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAALgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:32:01.22Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+<<<<<<< HEAD
               "Title": "IAuthUserRepository.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\AuthUser\\Interfaces\\IAuthUserRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Application\\Features\\AuthUser\\Interfaces\\IAuthUserRepository.cs",
@@ -303,10 +673,21 @@
               "ViewState": "AgIAABoAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T09:44:00.62Z",
+=======
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\Program.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\Program.cs",
+              "RelativeToolTip": "JobPortalSystem\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:45:00.23Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 8,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Auth\\AuthController.cs",
@@ -381,11 +762,23 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T10:01:34.006Z",
+=======
+              "DocumentIndex": 6,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Extensions\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Extensions\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Extensions\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Extensions\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAAAIAAABAojKqfd0iwBMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T05:55:00.103Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+<<<<<<< HEAD
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -470,10 +863,21 @@
               "ViewState": "AgIAAAQDAAAAAAAAAAAkwBUDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2026-05-15T09:28:33.517Z",
+=======
+              "Title": "IJobSeekerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\JobSeekers\\Interfaces\\IJobSeekerRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\JobSeekers\\Interfaces\\IJobSeekerRepository.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\JobSeekers\\Interfaces\\IJobSeekerRepository.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\JobSeekers\\Interfaces\\IJobSeekerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T06:55:42.111Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\appsettings.json",
@@ -561,10 +965,22 @@
               "ViewState": "AgIAAAEAAAAAAAAAAAAgwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:55:45.918Z",
+=======
+              "DocumentIndex": 8,
+              "Title": "IJobSeeekerService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\JobSeekers\\Interfaces\\IJobSeeekerService.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\JobSeekers\\Interfaces\\IJobSeeekerService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\JobSeekers\\Interfaces\\IJobSeeekerService.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\JobSeekers\\Interfaces\\IJobSeeekerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T06:55:11.49Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 26,
               "Title": "JobPortalDbContext.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Models\\JobPortalDbContext.cs",
@@ -613,10 +1029,22 @@
               "ViewState": "AgIAAAQAAAAAAAAAAIAwwA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T09:04:34.928Z",
+=======
+              "DocumentIndex": 9,
+              "Title": "JobSeekerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\JobSeekers\\Repositories\\JobSeekerRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\JobSeekers\\Repositories\\JobSeekerRepository.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\JobSeekers\\Repositories\\JobSeekerRepository.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\JobSeekers\\Repositories\\JobSeekerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T06:56:21.623Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 31,
               "Title": "EmailService.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Infrastructure\\ExternalServices\\EmailService.cs",
@@ -624,12 +1052,22 @@
               "ToolTip": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Infrastructure\\ExternalServices\\EmailService.cs",
               "RelativeToolTip": "Domain\\Infrastructure\\ExternalServices\\EmailService.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAwwDYAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 10,
+              "Title": "AddApplicationServices.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Extensions\\AddApplicationServices.cs",
+              "RelativeDocumentMoniker": "Domain\\Extensions\\AddApplicationServices.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Extensions\\AddApplicationServices.cs",
+              "RelativeToolTip": "Domain\\Extensions\\AddApplicationServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+>>>>>>> origin/nasilanasry
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T09:00:28.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 32,
               "Title": "PaginationHeader.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\PaginationHeader.cs",
@@ -639,11 +1077,270 @@
               "ViewState": "AgIAAAQAAAAAAAAAAAA1wBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:59:54.472Z",
+=======
+              "DocumentIndex": 11,
+              "Title": "JobSeekerController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\JobSeeker\\JobSeekerController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\JobSeeker\\JobSeekerController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\JobSeeker\\JobSeekerController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\JobSeeker\\JobSeekerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:09:29.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-19T06:32:30.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20260513065232_initial.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Migrations\\20260513065232_initial.cs",
+              "RelativeDocumentMoniker": "Domain\\Migrations\\20260513065232_initial.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Migrations\\20260513065232_initial.cs",
+              "RelativeToolTip": "Domain\\Migrations\\20260513065232_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T06:52:32.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "JobPortalSystem\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\appsettings.json",
+              "RelativeToolTip": "JobPortalSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-12T07:36:52.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JobPortalDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\JobPortalDbContext.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\JobPortalDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\JobPortalDbContext.cs",
+              "RelativeToolTip": "Domain\\Models\\JobPortalDbContext.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAuwNYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T06:34:57.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\UserRole.cs",
+              "RelativeToolTip": "Domain\\Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T06:32:29.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SignUpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\SignUpRequest.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\SignUpRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\SignUpRequest.cs",
+              "RelativeToolTip": "Domain\\Models\\SignUpRequest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T06:36:53.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Location.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\Location.cs",
+              "RelativeToolTip": "Domain\\Models\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T06:38:12.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthUser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\AuthUser.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\AuthUser.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\AuthUser.cs",
+              "RelativeToolTip": "Domain\\Models\\AuthUser.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAhwBAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T05:27:09.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Infrastructure\\ExternalServices\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Domain\\Infrastructure\\ExternalServices\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Infrastructure\\ExternalServices\\IEmailService.cs",
+              "RelativeToolTip": "Domain\\Infrastructure\\ExternalServices\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T07:33:04.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JobSeekerProfileDTo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\JobSeekerProfileDTo.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Profile\\DTOs\\JobSeekerProfileDTo.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\JobSeekerProfileDTo.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Profile\\DTOs\\JobSeekerProfileDTo.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAMwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:26:20.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "JobseekerWorkExperienceDTo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\JobseekerWorkExperienceDTo.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Profile\\DTOs\\JobseekerWorkExperienceDTo.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\JobseekerWorkExperienceDTo.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Profile\\DTOs\\JobseekerWorkExperienceDTo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:27:46.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "JobseekerQualificationDTo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\JobseekerQualificationDTo.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Profile\\DTOs\\JobseekerQualificationDTo.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\JobseekerQualificationDTo.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Profile\\DTOs\\JobseekerQualificationDTo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:27:08.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "JobRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\Repositories\\JobRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Job\\Repositories\\JobRepository.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\Repositories\\JobRepository.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Job\\Repositories\\JobRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwAIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:04:53.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "JobListParams.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\JobListParams.cs",
+              "RelativeDocumentMoniker": "Domain\\Helpers\\JobListParams.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\JobListParams.cs",
+              "RelativeToolTip": "Domain\\Helpers\\JobListParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T07:15:49.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ResumeDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\ResumeDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Profile\\DTOs\\ResumeDto.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\ResumeDto.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Profile\\DTOs\\ResumeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T08:19:37.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "JobSeekerProfile.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\JobSeekerProfile.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\JobSeekerProfile.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\JobSeekerProfile.cs",
+              "RelativeToolTip": "Domain\\Models\\JobSeekerProfile.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA8wCUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:53:13.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "JobSeekerProfileSkill.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\JobSeekerProfileSkill.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\JobSeekerProfileSkill.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\JobSeekerProfileSkill.cs",
+              "RelativeToolTip": "Domain\\Models\\JobSeekerProfileSkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T07:57:21.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\Skill.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\Skill.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\Skill.cs",
+              "RelativeToolTip": "Domain\\Models\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T07:52:41.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Infrastructure\\ExternalServices\\EmailService.cs",
+              "RelativeDocumentMoniker": "Domain\\Infrastructure\\ExternalServices\\EmailService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Infrastructure\\ExternalServices\\EmailService.cs",
+              "RelativeToolTip": "Domain\\Infrastructure\\ExternalServices\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T07:30:41.716Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
+<<<<<<< HEAD
               "Title": "MailSettings.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\MailSettings.cs",
               "RelativeDocumentMoniker": "Domain\\Helpers\\MailSettings.cs",
@@ -652,11 +1349,48 @@
               "ViewState": "AgIAAAgAAAAAAAAAAIA1wA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:58:53.6Z",
+=======
+              "Title": "ExperienceDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\ExperienceDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Profile\\DTOs\\ExperienceDto.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\ExperienceDto.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Profile\\DTOs\\ExperienceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:25:43.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProfileDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\ProfileDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Profile\\DTOs\\ProfileDTO.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\ProfileDTO.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Profile\\DTOs\\ProfileDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:28:20.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SkillDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\SkillDto.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Profile\\DTOs\\SkillDto.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Profile\\DTOs\\SkillDto.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Profile\\DTOs\\SkillDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:28:58.442Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
+<<<<<<< HEAD
               "Title": "ILoginRequestService.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Login\\Interfaces\\ILoginRequestService.cs",
               "RelativeDocumentMoniker": "Domain\\Application\\Features\\Login\\Interfaces\\ILoginRequestService.cs",
@@ -717,11 +1451,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:41:55.964Z",
+=======
+              "Title": "IJobServices.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\Interfaces\\IJobServices.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Job\\Interfaces\\IJobServices.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\Interfaces\\IJobServices.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Job\\Interfaces\\IJobServices.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:14:22.548Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
+<<<<<<< HEAD
               "Title": "AuthUserRepository.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\AuthUser\\Repositories\\AuthUserRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Application\\Features\\AuthUser\\Repositories\\AuthUserRepository.cs",
@@ -730,11 +1475,74 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:39:42.38Z",
+=======
+              "Title": "IJobRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\Interfaces\\IJobRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Job\\Interfaces\\IJobRepository.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\Interfaces\\IJobRepository.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Job\\Interfaces\\IJobRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:13:28.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SavedJobsDtos.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\DTOs\\SavedJobsDtos.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Job\\DTOs\\SavedJobsDtos.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\DTOs\\SavedJobsDtos.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Job\\DTOs\\SavedJobsDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:02:32.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "JobPostsDtos.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\DTOs\\JobPostsDtos.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Job\\DTOs\\JobPostsDtos.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\DTOs\\JobPostsDtos.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Job\\DTOs\\JobPostsDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:01:40.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AppliedJobsDtos.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\DTOs\\AppliedJobsDtos.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Job\\DTOs\\AppliedJobsDtos.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\DTOs\\AppliedJobsDtos.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Job\\DTOs\\AppliedJobsDtos.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T05:59:37.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "JobSeekerSignUpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerSignUpRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerSignUpRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerSignUpRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerSignUpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:20:03.043Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 39,
+<<<<<<< HEAD
               "Title": "LocationDto.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Admin\\DTO\\LocationDto.cs",
               "RelativeDocumentMoniker": "Domain\\Application\\Features\\Admin\\DTO\\LocationDto.cs",
@@ -743,11 +1551,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:41:52.634Z",
+=======
+              "Title": "QualificationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\QualificationRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\QualificationRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\QualificationRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\QualificationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:21:17.745Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
+<<<<<<< HEAD
               "Title": "JobSeekerDto.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Admin\\DTO\\JobSeekerDto.cs",
               "RelativeDocumentMoniker": "Domain\\Application\\Features\\Admin\\DTO\\JobSeekerDto.cs",
@@ -756,11 +1575,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:41:49.379Z",
+=======
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\Controllers\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "JobPortalSystem\\Controllers\\BaseApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T07:01:13.852Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
+<<<<<<< HEAD
               "Title": "Joblist.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Admin\\DTO\\Joblist.cs",
               "RelativeDocumentMoniker": "Domain\\Application\\Features\\Admin\\DTO\\Joblist.cs",
@@ -769,11 +1599,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:41:43.199Z",
+=======
+              "Title": "JobSeekerService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\JobSeekers\\Services\\JobSeekerService.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\JobSeekers\\Services\\JobSeekerService.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\JobSeekers\\Services\\JobSeekerService.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\JobSeekers\\Services\\JobSeekerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T06:59:46.666Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 42,
+<<<<<<< HEAD
               "Title": "CompanyUsersDto.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Admin\\DTO\\CompanyUsersDto.cs",
               "RelativeDocumentMoniker": "Domain\\Application\\Features\\Admin\\DTO\\CompanyUsersDto.cs",
@@ -782,11 +1623,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:39:36.594Z",
+=======
+              "Title": "JobServices.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\Services\\JobServices.cs",
+              "RelativeDocumentMoniker": "Domain\\Application\\Features\\Job\\Services\\JobServices.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Job\\Services\\JobServices.cs",
+              "RelativeToolTip": "Domain\\Application\\Features\\Job\\Services\\JobServices.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T06:05:51.733Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 43,
+<<<<<<< HEAD
               "Title": "LoginRequestRepository.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Application\\Features\\Login\\Repositories\\LoginRequestRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Application\\Features\\Login\\Repositories\\LoginRequestRepository.cs",
@@ -795,11 +1647,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:39:26.855Z",
+=======
+              "Title": "ApplyJobRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\ApplyJobRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\ApplyJobRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\ApplyJobRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\ApplyJobRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:01:51.321Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 44,
+<<<<<<< HEAD
               "Title": "SystemUser.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Models\\SystemUser.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\SystemUser.cs",
@@ -808,11 +1671,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:37:33.326Z",
+=======
+              "Title": "SavedJobObject.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SavedJobObject.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SavedJobObject.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SavedJobObject.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SavedJobObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T08:26:23.105Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 45,
+<<<<<<< HEAD
               "Title": "UserRole.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\UserRole.cs",
@@ -821,11 +1695,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T08:36:34.21Z",
+=======
+              "Title": "SaveJobRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SaveJobRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SaveJobRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SaveJobRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Job\\RequestObjects\\SaveJobRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T08:26:25.247Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 46,
+<<<<<<< HEAD
               "Title": "AuthUser.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Models\\AuthUser.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\AuthUser.cs",
@@ -847,11 +1732,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T06:54:44.167Z",
+=======
+              "Title": "JobController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Job\\JobController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Job\\JobController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Job\\JobController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Job\\JobController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:09:02.925Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 47,
+<<<<<<< HEAD
               "Title": "MessageStatus.cs",
               "DocumentMoniker": "D:\\JobPortalFinal\\JobPortalSystem\\HireMeNow\\Domain\\Enums\\MessageStatus.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\MessageStatus.cs",
@@ -860,6 +1756,333 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-15T05:59:47.338Z",
+=======
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Admin\\AdminController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Admin\\AdminController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Admin\\AdminController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Admin\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:06:43.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "PaginationParams.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\PaginationParams.cs",
+              "RelativeDocumentMoniker": "Domain\\Helpers\\PaginationParams.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\PaginationParams.cs",
+              "RelativeToolTip": "Domain\\Helpers\\PaginationParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T07:20:06.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "MailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\MailSettings.cs",
+              "RelativeDocumentMoniker": "Domain\\Helpers\\MailSettings.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\MailSettings.cs",
+              "RelativeToolTip": "Domain\\Helpers\\MailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T07:17:22.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "MailRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\MailRequest.cs",
+              "RelativeDocumentMoniker": "Domain\\Helpers\\MailRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\MailRequest.cs",
+              "RelativeToolTip": "Domain\\Helpers\\MailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T07:16:34.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CompanyMemberListParam.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\CompanyMemberListParam.cs",
+              "RelativeDocumentMoniker": "Domain\\Helpers\\CompanyMemberListParam.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\CompanyMemberListParam.cs",
+              "RelativeToolTip": "Domain\\Helpers\\CompanyMemberListParam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T07:14:51.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "InterviewParams.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\InterviewParams.cs",
+              "RelativeDocumentMoniker": "Domain\\Helpers\\InterviewParams.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\InterviewParams.cs",
+              "RelativeToolTip": "Domain\\Helpers\\InterviewParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T07:15:19.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PaginationHeader.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\PaginationHeader.cs",
+              "RelativeDocumentMoniker": "Domain\\Helpers\\PaginationHeader.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\PaginationHeader.cs",
+              "RelativeToolTip": "Domain\\Helpers\\PaginationHeader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T07:19:18.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PagedList.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\PagedList.cs",
+              "RelativeDocumentMoniker": "Domain\\Helpers\\PagedList.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Helpers\\PagedList.cs",
+              "RelativeToolTip": "Domain\\Helpers\\PagedList.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T07:18:06.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "JobSeekerLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerLoginRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerLoginRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerLoginRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\JobSeeker\\RequestObjects\\JobSeekerLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:07:14.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAACwAAAD+/////z9VwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-08T07:00:10.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Chat\\ChatController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Chat\\ChatController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Chat\\ChatController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Chat\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:08:02.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "JobPostRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\JobPostRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\JobPostRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\JobPostRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\JobPostRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:16:34.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "InterviewScheduleObject.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\InterviewScheduleObject.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\InterviewScheduleObject.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\InterviewScheduleObject.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\InterviewScheduleObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:16:14.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "CompanyUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\CompanyUserRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\CompanyUserRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\CompanyUserRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\CompanyUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:15:57.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ComapnyUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\ComapnyUpdateRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\ComapnyUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\ComapnyUpdateRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\ComapnyUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:15:42.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AddCompanyRequestObject.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\AddCompanyRequestObject.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\AddCompanyRequestObject.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\AddCompanyRequestObject.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\RequestObjects\\AddCompanyRequestObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:15:24.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ChatUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Chat\\RequestObjects\\ChatUserDto.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Chat\\RequestObjects\\ChatUserDto.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Chat\\RequestObjects\\ChatUserDto.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Chat\\RequestObjects\\ChatUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:14:46.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "SkillRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\SkillRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\SkillRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\SkillRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\SkillRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:12:02.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "LocationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\LocationRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\LocationRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\LocationRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\LocationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:11:49.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "IndustryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\IndustryRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\IndustryRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\IndustryRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\IndustryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:11:34.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CategoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\CategoryRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\CategoryRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\CategoryRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\CategoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:11:17.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "AdminLoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\AdminLoginRequest.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\AdminLoginRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\AdminLoginRequest.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\Admin\\RequestObjects\\AdminLoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:10:55.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "CompanyUserController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\CompanyUser\\CompanyUserController.cs",
+              "RelativeDocumentMoniker": "JobPortalSystem\\API\\Controllers\\CompanyUser\\CompanyUserController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\JobPortalSystem\\API\\Controllers\\CompanyUser\\CompanyUserController.cs",
+              "RelativeToolTip": "JobPortalSystem\\API\\Controllers\\CompanyUser\\CompanyUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:08:34.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "20260427184716_initials.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427184716_initials.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427184716_initials.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:47:17.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20260427184156_inital creation.cs",
+              "DocumentMoniker": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427184156_inital creation.cs",
+              "ToolTip": "D:\\Batch31Asp.netCore\\Asp.net-core-Batch-31\\Anjana WEB API\\JobPortalSystem\\Domain\\Migrations\\20260427184156_inital creation.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T18:41:57.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "JobProviderCompany.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\JobProviderCompany.cs",
+              "RelativeDocumentMoniker": "Domain\\Models\\JobProviderCompany.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\JobPortalSystem\\JobPortalSystem\\HireMeNow\\Domain\\Models\\JobProviderCompany.cs",
+              "RelativeToolTip": "Domain\\Models\\JobProviderCompany.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvx8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:53:02.151Z",
+>>>>>>> origin/nasilanasry
               "EditorCaption": ""
             }
           ]
