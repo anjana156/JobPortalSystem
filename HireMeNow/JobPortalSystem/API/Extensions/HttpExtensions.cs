@@ -1,11 +1,7 @@
 ﻿using Domain.Helpers;
 using System.Text.Json;
 
-<<<<<<< HEAD
 namespace HireMeNow_WebApi.Extensions
-=======
-namespace JobPortalSystem.API.Extensions
->>>>>>> origin/sofnanash
 {
 	public static class HttpExtensions
 	{

@@ -26,7 +26,7 @@ namespace Domain.Application.Features.JobProvider.Interfaces
 
         public void DeleteJob(Guid id);
 
-        void CreateSignupRequest(JobProviderSignupRequestDto data);
+        void CreateSignupRequest(SignUpRequestDto data);
 
         Task<bool> VerifyEmailAsync(Guid jobProviderSignupRequestId);
 

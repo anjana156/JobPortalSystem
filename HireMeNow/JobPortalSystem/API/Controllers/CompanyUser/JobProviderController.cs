@@ -35,7 +35,7 @@ namespace JobPortalSystem.API.Controllers.CompanyUser
         [AllowAnonymous]
         public async Task<ActionResult> createJobProviderSignupRequest(JobProviderSignupRequest data)
         {
-            var jobSeekerSignupRequestDto = _mapper.Map<JobProviderSignupRequestDto>(data);
+            var jobSeekerSignupRequestDto = _mapper.Map<SignUpRequestDto>(data);
             _jobProviderService.CreateSignupRequest(jobSeekerSignupRequestDto);
             return Ok(data);
         }
@@ -62,20 +62,20 @@ namespace JobPortalSystem.API.Controllers.CompanyUser
             return Ok("Password Set Successfully");
         }
 
-        [AllowAnonymous]
-        [HttpPost]
-        [Route("job-provider/login")]
-        public async Task<ActionResult> Login(JobSeekerLoginRequest logdata)
-        {
-            //var user = _mapper.Map<User>(userDto);
-            var user = _loginRequestService.login(logdata.Email, logdata.Password);
+        //[AllowAnonymous]
+        //[HttpPost]
+        //[Route("job-provider/login")]
+        //public async Task<ActionResult> Login(JobSeekerLoginRequest logdata)
+        //{
+        //    //var user = _mapper.Map<User>(userDto);
+        //    var user = _loginRequestService.Login(logdata.Email, logdata.Password);
 
-            if (user == null)
-            {
-                return BadRequest("Login Failed");
-            }
-            return Ok(user);
-        }
+        //    if (user == null)
+        //    {
+        //        return BadRequest("Login Failed");
+        //    }
+        //    return Ok(user);
+        //}
 
 
 

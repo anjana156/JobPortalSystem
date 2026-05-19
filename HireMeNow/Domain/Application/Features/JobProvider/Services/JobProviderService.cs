@@ -63,7 +63,7 @@ namespace Domain.Application.Features.JobProvider.Repositories
             _jobProviderRepository.DeleteJob(id);
         }
 
-        public async void CreateSignupRequest(JobProviderSignupRequestDto data)
+        public async void CreateSignupRequest(SignUpRequestDto data)
         {
 
             var signUpRequest = _mapper.Map<SignUpRequest>(data);

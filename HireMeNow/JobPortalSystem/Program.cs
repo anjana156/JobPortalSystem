@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-using Domain.Application.Features.JobProvider.Interfaces;
-using Domain.Application.Features.JobProvider.Repositories;
-using Domain.Extensions;
-using Domain.Helpers;
-using HireMeNow_WebApi.Extensions;
-=======
 using JobPortalSystem.API.Extensions;
->>>>>>> origin/sofnanash
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.HttpLogging;
 using Microsoft.IdentityModel.Tokens;
@@ -18,14 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddApplicationServices(builder.Configuration);
-<<<<<<< HEAD
-builder.Services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
-//builder.Services.Configure<Domain.Helpers.MailSettings>(builder.Configuration.GetSection("MailSettings"));
-=======
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddAutoMapper(typeof(AutoMapperProfiles).Assembly);
 builder.Services.Configure<Domain.Helpers.MailSettings>(builder.Configuration.GetSection("MailSettings"));
->>>>>>> origin/sofnanash
 builder.Services.AddControllers();
 builder.Services.AddSignalR();
 
@@ -44,10 +31,6 @@ builder.Services.AddSwaggerGen(options =>
 
     options.OperationFilter<SecurityRequirementsOperationFilter>();
 });
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/sofnanash
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -60,10 +43,6 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidateAudience = false
         };
     });
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/sofnanash
 builder.Services.AddCors(options => options.AddPolicy(name: "NgOrigins",
 policy =>
 {
@@ -80,11 +59,6 @@ builder.Services.AddHttpLogging(logging =>
     logging.ResponseBodyLogLimit = 4096;
 
 });
-
-
-
-builder.Services.AddScoped<IJobProviderRepository, JobProviderRepository>();
-builder.Services.AddScoped<IJobProviderService, JobProviderService>();
 
 var app = builder.Build();
 

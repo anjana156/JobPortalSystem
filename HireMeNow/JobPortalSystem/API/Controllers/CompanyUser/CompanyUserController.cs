@@ -2,7 +2,7 @@
 using Domain.Application.Features.JobProvider.DTO;
 using Domain.Application.Features.JobProvider.Interfaces;
 using Domain.Helpers;
-using Domain.Application.Features.Authuser.DTOs;
+using Domain.Application.Features.Authuser.DTO;
 using Domain.Application.Features.Authuser.Interfaces;
 using JobPortalSystem.API.Controllers.CompanyUser.RequestObjects;
 using Microsoft.AspNetCore.Authorization;
