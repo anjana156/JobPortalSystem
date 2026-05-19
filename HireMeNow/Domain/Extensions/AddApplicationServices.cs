@@ -12,7 +12,7 @@ namespace Domain.Extensions
 {
     public static class ApplicationServiceExtension
     {
-        public static IServiceCollection AddApplicationServices1(this IServiceCollection services, IConfiguration config)
+        public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration config)
         {
             services.AddDbContext<JobPortalDbContext>(options =>
                options.UseSqlServer(config.GetConnectionString("DefaultConnection")));

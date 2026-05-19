@@ -32,6 +32,8 @@ namespace Domain.Models
         public virtual ICollection<Qualification> Qualifications { get; set; } = new List<Qualification>();
         [JsonIgnore]
         public virtual ICollection<WorkExperience> WorkExperiences { get; set; } = new List<WorkExperience>();
+        public virtual ICollection<JobSeekerProfileSkill> JobSeekerProfileSkills { get; set; } = new List<JobSeekerProfileSkill>();
     }
 
+   
 }
