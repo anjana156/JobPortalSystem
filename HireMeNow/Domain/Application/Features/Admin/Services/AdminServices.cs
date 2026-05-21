@@ -1,11 +1,12 @@
 ﻿using AutoMapper;
 using Domain.Application.Features.Admin.Interfaces;
+using Domain.Application.Features.JobSeekers.DTO;
 using Domain.Application.Features.Profile.DTO;
 using Domain.Models;
 
 namespace Domain.Application.Features.Admin.Services
 {
-    public class AdminServices:IAdminServices
+    public class AdminServices : IAdminServices
     {
         IAdminRepository _adminRepository;
         IMapper _mapper;

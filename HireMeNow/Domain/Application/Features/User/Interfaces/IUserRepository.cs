@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Service.User.Interface
+namespace Domain.Application.Features.User.Interfaces
 {
 	public interface IUserRepository
 	{

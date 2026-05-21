@@ -1,11 +1,13 @@
 ﻿using Domain.Application.Features.SignUp.DTO;
-using Domain.Application.Features.SignUp.In;
-using Domain.Service.Login.DTOs;
-using Domain.Service.Login.Interfaces;
+using Domain.Application.Features.SignUp.Interfaces;
+using Domain.Application.Features.Login.DTO;
+using Domain.Application.Features.Login.Interfaces;
 using JobPortalSystem.API.Controllers.Auth.RequestObjects;
 using JobPortalSystem.Controllers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Domain.Service.Login.DTOs;
+using Domain.Application.Features.SignUp.In;
 
 namespace JobPortalSystem.API.Controllers.Auth
 {

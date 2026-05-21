@@ -1,33 +1,53 @@
-﻿using Domain.Application.Features.Job.DTOs;
-using Domain.Helpers;
+﻿using Domain.Helpers;
 using Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Domain.Application.Features.Job.Interfaces
 {
     public interface IJobRepository
     {
+        // JOBS
+
+        Task<List<JobPost>> GetJobs();
 
         Task<List<JobPost>> GetJobs(Guid userId);
-        Task<List<JobPost>> GetJobs();
+
         Task<List<JobPost>> GetJobsByCompany(Guid companyId);
 
-        Task<List<JobPost>> GetJobsById(Guid companyId, Guid jobId);
+        Task<JobPost?> GetJobsById(Guid companyId, Guid jobId);
 
-        Task<PagedList<SavedJob>> GetAllSavedJobsOfSeeker(Guid jobseekerId, JobListParams param);
-        Task<PagedList<JobApplication>> GetAllAppliedJobs(Guid jobseekerId, JobListParams param);
 
-        SavedJob RemoveSavedJob(Guid seekerId, Guid jobid);
-        bool applyjob(JobApplication applyjob);
-        bool CancelAppliedJob(Guid jobseekerId, Guid JobApplicationId);
-        SavedJob GetsavedJobById(Guid jobseekerId, Guid SavedJobId);
-        Task<SavedJob> saveJob(SavedJob savedJob);
-        bool SavedJobs(JobPostsDtos job, Guid userId);
 
+
+        // SAVED JOBS
+
+        Task<PagedList<SavedJob>> GetAllSavedJobsOfSeeker(
+            Guid jobSeekerId,
+            JobListParams param);
+
+        Task<SavedJob> SaveJob(SavedJob savedJob);
+
+        bool IsJobSaved(Guid jobId,Guid userId);
+
+        Task<SavedJob?> GetSavedJobById(
+            Guid jobSeekerId,
+            Guid savedJobId);
+
+        SavedJob? RemoveSavedJob(
+            Guid jobSeekerId,
+            Guid jobId);
+
+
+        // APPLIED JOBS
+
+
+        Task<PagedList<JobApplication>> GetAllAppliedJobs(
+            Guid jobSeekerId,
+            JobListParams param);
+
+        bool ApplyJob(JobApplication applyJob);
+
+        bool CancelAppliedJob(
+            Guid jobSeekerId,
+            Guid jobApplicationId);
     }
-
 }

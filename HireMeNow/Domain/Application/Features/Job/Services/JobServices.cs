@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Domain.Application.Features.Job.DTO;
-using Domain.Application.Features.Job.DTOs;
 using Domain.Application.Features.Job.Interfaces;
 using Domain.Helpers;
 using Domain.Models;
@@ -22,25 +21,8 @@ namespace Domain.Application.Features.Job.Services
             _jobrepository = jobrepository;
             _mapper = mapper;
         }
-        public async Task<PagedList<SavedJob>> GetAllSavedJobsOfSeeker(Guid jobseekerId, JobListParams param)
-        {
-            var savedJobs = await _jobrepository.GetAllSavedJobsOfSeeker(jobseekerId, param);
-            //var savedjobsDto = _mapper.Map<PagedList<SavedJob>>(savedJobs);
-            return savedJobs;
-        }
 
-        public async Task<List<JobPostsDtos>> GetJobs(Guid userId)
-        {
-            var notApplied = await _jobrepository.GetJobs(userId);
-            var dtoList = _mapper.Map<List<JobPost>, List<JobPostsDtos>>(notApplied);
-
-            foreach (var job in dtoList)
-            {
-                job.Saved = _jobrepository.SavedJobs(job, userId);
-            }
-
-            return dtoList;
-        }
+        // GET ALL JOBS
         public async Task<List<JobPostsDtos>> GetJobs()
         {
             var notApplied = await _jobrepository.GetJobs();
@@ -49,16 +31,70 @@ namespace Domain.Application.Features.Job.Services
 
 
         }
+        public async Task<List<JobPostsDtos>> GetJobs(Guid userId)
+        {
+            var notApplied = await _jobrepository.GetJobs(userId);
+            var dtoList = _mapper.Map<List<JobPost>, List<JobPostsDtos>>(notApplied);
+
+            foreach (var job in dtoList)
+            {
+                job.Saved = _jobrepository.IsJobSaved(job.Id, userId);
+            }
+
+            return dtoList;
+        }
+       
 
         public async Task<List<JobPost>> GetJobsByCompany(Guid companyId)
         {
             return await _jobrepository.GetJobsByCompany(companyId);
         }
 
-        public async Task<List<JobPost>> GetJobsById(Guid companyId, Guid jobId)
+        //public async Task<List<JobPost>> GetJobsById(Guid companyId, Guid jobId)
+        //{
+        //    return await _jobrepository.GetJobsById(companyId, jobId);
+        //}
+
+        public async Task<JobPost?> GetJobsById(Guid companyId, Guid jobId)
         {
             return await _jobrepository.GetJobsById(companyId, jobId);
         }
+
+
+        //SAVED JOBS
+
+        public async Task<PagedList<SavedJob>> GetAllSavedJobsOfSeeker(Guid jobseekerId, JobListParams param)
+        {
+            var savedJobs = await _jobrepository.GetAllSavedJobsOfSeeker(jobseekerId, param);
+            //var savedjobsDto = _mapper.Map<PagedList<SavedJob>>(savedJobs);
+            return savedJobs;
+        }
+
+        public async Task<SavedJob> SaveJob(SavedJob savedJob)
+        {
+            return await _jobrepository.SaveJob(savedJob);
+        }
+
+        public async Task<SavedJobsDtos?> GetSavedJobById(Guid jobseekerId, Guid savedJobId)
+        {
+            var savedJob = await _jobrepository.GetSavedJobById(jobseekerId, savedJobId);
+            if(savedJob == null)
+            {
+                return null;
+            }
+                return _mapper.Map<SavedJobsDtos>(savedJob);
+            
+        }
+
+        public SavedJob? RemoveSavedJob(Guid seekerId, Guid jobid)
+        {
+
+            return _jobrepository.RemoveSavedJob(seekerId, jobid);
+        }
+
+
+
+        // APPLIED JOBS
         public async Task<PagedList<AppliedJobsDtos>> GetAllAppliedJobs(Guid jobseekerId, JobListParams param)
         {
             var appliedjobs = await _jobrepository.GetAllAppliedJobs(jobseekerId, param);
@@ -66,35 +102,21 @@ namespace Domain.Application.Features.Job.Services
             var appliedjobsDto = _mapper.Map<PagedList<AppliedJobsDtos>>(appliedjobs);
             return appliedjobsDto;
         }
-        public SavedJob RemoveSavedJob(Guid seekerId, Guid jobid)
-        {
-
-            return _jobrepository.RemoveSavedJob(seekerId, jobid);
-        }
-
+        
 
         public bool ApplyJob(JobApplication applyJob)
 
         {
 
-            return _jobrepository.applyjob(applyJob);
+            return _jobrepository.ApplyJob(applyJob);
         }
-        public async Task<SavedJob> saveJob(SavedJob savedJob)
-        {
-            return await _jobrepository.saveJob(savedJob);
-        }
+       
         public bool CancelAppliedJob(Guid jobseekerId, Guid JobApplicationId)
         {
             return _jobrepository.CancelAppliedJob(jobseekerId, JobApplicationId);
         }
-        public SavedJobsDtos GetsavedJobById(Guid jobseekerId, Guid SavedJobId)
-        {
-            var savedJob = _jobrepository.GetsavedJobById(jobseekerId, SavedJobId);
-
-            var SavedJobsDto = _mapper.Map<SavedJobsDtos>(savedJob);
-            return SavedJobsDto;
-        }
-
+       
+       
 
     }
 

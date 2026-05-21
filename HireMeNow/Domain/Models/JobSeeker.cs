@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Models
 {
-    public partial class JobSeeker
+    public class JobSeeker
     {
         [Key]
         [Required]

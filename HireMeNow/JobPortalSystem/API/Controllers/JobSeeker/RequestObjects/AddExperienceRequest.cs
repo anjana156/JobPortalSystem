@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Domain.Application.Features.Profile.DTOs
+﻿namespace JobPortalSystem.API.Controllers.JobSeeker.RequestObjects
 {
-    public class JobseekerWorkExperienceDTo
+    public class AddExperienceRequest
     {
-
         public string JobTitle { get; set; } = null!;
 
         public string CompanyName { get; set; } = null!;
@@ -18,6 +11,5 @@ namespace Domain.Application.Features.Profile.DTOs
         public DateTime ServiceStart { get; set; }
 
         public DateTime ServiceEnd { get; set; }
-
     }
 }

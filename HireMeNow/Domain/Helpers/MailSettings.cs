@@ -14,13 +14,10 @@ namespace Domain.Helpers
         public string Host { get; set; }
         public int Port { get; set; }
         public bool UseSSL { get; set; }
-<<<<<<< HEAD
 
         public string FromMail { get; set; }         
         public bool IsEmailEnabled { get; set; }      
         public bool DoAuthenticate { get; set; }
 
-=======
->>>>>>> origin/nasilanasry
     }
 }

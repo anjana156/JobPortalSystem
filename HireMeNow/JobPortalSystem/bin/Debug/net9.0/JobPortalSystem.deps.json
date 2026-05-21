@@ -121,11 +121,7 @@
       },
       "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.13": {
         "dependencies": {
-<<<<<<< HEAD
-          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.24.0"
-=======
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.35.0"
->>>>>>> origin/nasilanasry
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {

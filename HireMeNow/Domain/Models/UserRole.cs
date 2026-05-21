@@ -7,12 +7,8 @@ using System.Threading.Tasks;
 
 namespace Domain.Models
 {
-<<<<<<< HEAD
     [Table("UserRoles")]
 
-=======
-    [Table("UserRole")]
->>>>>>> origin/nasilanasry
     public partial class UserRole
     {
         

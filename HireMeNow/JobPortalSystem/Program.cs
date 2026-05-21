@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 using Domain.Extensions;
->>>>>>> origin/nasilanasry
 using JobPortalSystem.API.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.HttpLogging;
@@ -9,10 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 using System.Text;
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/nasilanasry
 
 var builder = WebApplication.CreateBuilder(args);
 

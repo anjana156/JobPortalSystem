@@ -12,13 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Domain.Migrations
 {
     [DbContext(typeof(JobPortalDbContext))]
-<<<<<<<< HEAD:HireMeNow/Domain/Migrations/20260513095024_initials1.Designer.cs
+
     [Migration("20260513095024_initials1")]
     partial class initials1
-========
-    [Migration("20260513065232_initial")]
-    partial class initial
->>>>>>>> origin/nasilanasry:HireMeNow/Domain/Migrations/20260513065232_initial.Designer.cs
+
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

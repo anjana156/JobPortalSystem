@@ -1,154 +1,139 @@
 ﻿using AutoMapper;
 using Domain.Application.Features.Job.Interfaces;
 using Domain.Application.Features.Job.Services;
-using Domain.Application.Features.Login.Interfaces;
-using Domain.Application.Features.SignUp.DTO;
-using Domain.Application.Features.SignUp.Interfaces;
+using Domain.Application.Features.JobSeeker.Interfaces;
+using Domain.Application.Features.JobSeekers.DTO;
+using Domain.Helpers;
 using Domain.Models;
-using Domain.Application.Features.Job.DTO;
-using Domain.Application.Features.Profile.DTOs;
-using JobPortalSystem.API.Controllers.JobSeeker.RequestObjects;
 using JobPortalSystem.Controllers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 
 
 namespace JobPortalSystem.API.Controllers.JobSeeker
 {
+    [Route("api/[controller]")]
+    [ApiController]
+    [Authorize(Roles = "JOB_SEEKER")]
 
     public class JobSeekerController : BaseApiController<JobSeekerController>
     {
-        public ISignUpRequestService jobSeekerService { get; set; }
+        private readonly IJobSeekerService _jobSeekerService;
+        private readonly IJobServices _jobService;
+     
 
-        public ILoginRequestService loginRequestService { get; set; }
-        public JobServices jobServices { get; set; }
-        public IMapper mapper { get; set; }
-        public JobSeekerController(ISignUpRequestService _jobSeekerService, IMapper _mapper, ILoginRequestService _loginRequestService, IJobServices _jobService)
+        public IMapper _mapper { get; set; }
+        public JobSeekerController(IJobSeekerService jobSeekerService, IMapper mapper, IJobServices jobService)
         {
-            jobSeekerService = _jobSeekerService;
-            loginRequestService = _loginRequestService;
-            mapper = _mapper;
+            _jobSeekerService = jobSeekerService;
+            _mapper = mapper;
+            _jobService = jobService;
 
-            jobServices = (JobServices?)_jobService;
-
-        }
-        [HttpPost]
-        [Route("job-seeker/signup")]
-        public async Task<ActionResult> createJobSeekerSignupRequest(JobSeekerSignUpRequest data)
-        {
-            var jobSeekerSignupRequestDto = mapper.Map<JobSeekerSignupRequestDto>(data);
-            jobSeekerService.CreateSignupRequest(jobSeekerSignupRequestDto);
-            return Ok(data);
-        }
-        [HttpGet]
-        [Route("job-seeker/signup/{jobSeekerSignupRequestId}/verify-email")]
-        public async Task<ActionResult> VerifyJobSeekerEmail(Guid jobSeekerSignupRequestId)
-        {
-            var isVerified = await jobSeekerService.VerifyEmailAsync(jobSeekerSignupRequestId);
-            if (isVerified)
-            {
-                return Ok();
-            }
-            return new BadRequestResult();
-        }
-
-        [HttpPost]
-        [Route("job-seeker/signup/{jobSeekerSignupRequestId}/set-password")]
-        public async Task<ActionResult> createJobSeekerSignupRequest(Guid jobSeekerSignupRequestId, [FromBody] string password)
-        {
-            //var jobSeekerSignupRequestDto = mapper.Map<JobSeekerSignupRequestDto>(data);
-            await jobSeekerService.CreateJobseeker(jobSeekerSignupRequestId, password);
-            return Ok("Password Set Successfully");
         }
 
 
-        [HttpPost]
-        [Route("job-seeker/upload-resume")]
-        public async Task<ActionResult> UploadResume(Guid jobSeekerId, Guid profileId, string profileName, string profileSummary, string title, IFormFile file)
+        // GET LOGGED-IN USER ID
+
+        private Guid GetUserId()
         {
-            var memoryStream = new MemoryStream();
-            await file.CopyToAsync(memoryStream);
-            byte[] fileData = memoryStream.ToArray();
-
-            Guid resumeId = await jobSeekerService.addResume(title, fileData);
-
-            await jobSeekerService.addResumeToProfile(profileId, resumeId, jobSeekerId, profileName, profileSummary);
-            return Ok(resumeId);
+            return Guid.Parse(
+                User.FindFirstValue(ClaimTypes.Sid));
         }
 
-        [HttpPut]
-        [Route("job-seeker/update-resume")]
-        public async Task<ActionResult> UpdateResume(Guid profileId, IFormFile file)
+
+
+        // GET PROFILE
+
+        [HttpGet("Profile")]
+        public async Task<IActionResult> GetProfile()
         {
+            var userId = GetUserId();
 
-            Guid resumeId = await jobSeekerService.getResumeId(profileId);
+            var profile =
+                await _jobSeekerService
+                    .GetcompleteProfile(userId);
 
-            var memoryStream = new MemoryStream();
-            await file.CopyToAsync(memoryStream);
-            byte[] fileData = memoryStream.ToArray();
-
-            await jobSeekerService.UpdateResume(resumeId, fileData);
-
-
-            return Ok();
+            return Ok(profile);
         }
 
-        [HttpGet]
-        [Route("job-seeker/getResume/{profileId}")]
-        public async Task<ActionResult<byte[]>> GetResume(Guid profileId)
+
+
+        // SAVE JOB
+
+        [HttpPost("SaveJob/{jobId}")]
+        public async Task<IActionResult> SaveJob(Guid jobId)
         {
-            try
-            {
-                Guid resumeId = await jobSeekerService.getResumeId(profileId);
+            SavedJob savedJob = new SavedJob();
 
-                /* byte[] byteArray = await jobSeekerService.getResumeFile(resumeId);
+            savedJob.Job = jobId;
 
-				 if (byteArray == null)
-				 {
-					 return NotFound(); // Or any appropriate status code if the file doesn't exist.
-				 }
+            savedJob.SavedBy = GetUserId();
 
-				 return byteArray;*/
+            savedJob.DateSaved = DateTime.UtcNow;
 
-                List<Resume> resume = await jobSeekerService.getResumeById(resumeId);
-                return Ok(mapper.Map<List<ResumeDto>>(resume));
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            await _jobService.SaveJob(savedJob);
+
+            return Ok("Job Saved");
         }
 
-        [HttpPost]
-        [Route("job-seeker/login")]
-        public async Task<ActionResult> Login(JobSeekerLoginRequest logdata)
+
+
+        // GET SAVED JOBS
+
+        [HttpGet("SavedJobs")]
+        public async Task<IActionResult> GetSavedJobs(
+            [FromQuery] JobListParams param)
         {
-            //var user = _mapper.Map<User>(userDto);
-            var user = loginRequestService.login(logdata.Email, logdata.Password);
+            var jobs =
+                await _jobService.GetAllSavedJobsOfSeeker(
+                    GetUserId(),
+                    param);
 
-            if (user == null)
-            {
-                return BadRequest("Login Failed");
-            }
-            return Ok(user);
+            return Ok(jobs);
         }
-        [HttpDelete]
-        [Route("job-seeker/delete-resume")]
-        public async Task<ActionResult> DeleteResume(Guid profileId)
+
+
+
+        // APPLY JOB
+
+        [HttpPost("ApplyJob/{jobId}")]
+        public IActionResult ApplyJob(Guid jobId, Guid resumeId)
         {
+            JobApplication application = new JobApplication();
 
-            Guid resumeId = await jobSeekerService.getResumeId(profileId);
+            application.JobPost_id = jobId;
 
-            await jobSeekerService.DeleteResume(resumeId);
+            application.Applicant = GetUserId();
 
+            application.Resume_id= resumeId;
 
-            return Ok();
+            application.Datesubmitted = DateTime.UtcNow;
+
+            application.status = Domain.Enums.Status.PENDING;
+
+            var result =
+                _jobService.ApplyJob(application);
+
+            return Ok(result);
         }
-        [HttpPost]
-        [Route("SavedJobs")]
-        public async Task<ActionResult> saveJob()
+
+
+
+        // GET APPLIED JOBS
+
+        [HttpGet("AppliedJobs")]
+        public async Task<IActionResult> GetAppliedJobs(
+            [FromQuery] JobListParams param)
         {
-            throw new NotImplementedException();
+            var jobs =
+                await _jobService.GetAllAppliedJobs(
+                    GetUserId(),
+                    param);
+
+            return Ok(jobs);
         }
+
     }
 }

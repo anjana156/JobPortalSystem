@@ -1,13 +1,17 @@
-<<<<<<< HEAD
-﻿
 using AutoMapper;
 using Domain.Application.Features.Admin.DTO;
+using Domain.Application.Features.Job.DTO;
+using Domain.Application.Features.JobProvider.DTO;
+using Domain.Application.Features.JobSeekers.DTO;
 using Domain.Application.Features.Login.DTO;
 using Domain.Application.Features.Profile.DTO;
 using Domain.Application.Features.SignUp.DTO;
 using Domain.Models;
 using Domain.Service.Login.DTOs;
 using JobPortalSystem.API.Controllers.Admin.RequestObjects;
+using JobPortalSystem.API.Controllers.CompanyUser.RequestObjects;
+using JobPortalSystem.API.Controllers.JobSeeker.RequestObjects;
+using JobProviderDto = Domain.Application.Features.Admin.DTO.JobProviderDto;
 
 namespace JobPortalSystem.API.Extensions
 {
@@ -38,11 +42,11 @@ namespace JobPortalSystem.API.Extensions
             //CreateMap<QualificationRequest, JobseekerQualificationDTo>();
             //CreateMap<Qualification,JobseekerQualificationDTo>();
             CreateMap<Skill, SkillDto>();
-            //CreateMap<JobseekerQualificationDTo, Qualification>();
-            //CreateMap<WorkExperieceRequest, JobseekerWorkExperienceDTo>();
-            //CreateMap<JobseekerWorkExperienceDTo, WorkExperience>();
-            //CreateMap<WorkExperience, ExperienceDto>();
-            //CreateMap<AuthUser, JobSeekerLoginDto>();
+            CreateMap<QualificationDto, Qualification>();
+            CreateMap<AddExperienceRequest,ExperienceDto>();
+            CreateMap<ExperienceDto, WorkExperience>();
+            CreateMap<WorkExperience, ExperienceDto>();
+            CreateMap<AuthUser, JobSeekerLoginDto>();
 
             CreateMap<SkillRequest, SkillDto>();
             CreateMap<IndustryRequest, Industry>();
@@ -67,36 +71,35 @@ namespace JobPortalSystem.API.Extensions
 
             //CreateMap<AuthUser, JobSeekerLoginDto>();
             CreateMap<JobPost, Joblist>().ReverseMap();
-           
 
-   //         CreateMap<JobSeekerProfileDTo, Domain.Models.JobSeeker>();
-   //         CreateMap<ApplyJobRequest, JobApplication>();
-   //         CreateMap<JobApplication, AppliedJobsDtos>();
-   //         CreateMap<CompanyRegistrationDtos, JobProviderCompany>().ReverseMap();
-   //         CreateMap<AddCompanyRequestobject, JobProviderCompany>().ReverseMap();
-			//CreateMap<CompanyRegistrationDtos, AddCompanyRequestobject>().ReverseMap();
-   //         CreateMap<CompanyUpdateDtos, CompanyupdateRequest>().ReverseMap();
-   //         CreateMap<CompanyUpdateDtos,JobProviderCompany>().ReverseMap();
-   //         CreateMap<SavedJob,SavedJobsDtos>().ReverseMap();
-   //         CreateMap<JobProviderCompany, GetCompanyDetailsDto>();
-   //        CreateMap<InterviewSheduleObject,InterviewsheduleDtos>();    
-   //         CreateMap<InterviewsheduleDtos,Interview>();
-			//CreateMap<SheduledInterviewDto,Interview>();
-			//CreateMap<Interview, SheduledInterviewDto>();
-   //         CreateMap<CompanyUser, CompanyMemberListDtos>().ReverseMap();
-   //         CreateMap<SaveJobRequest,SavedJob>().ReverseMap();
-	
+
+            CreateMap<JobSeekerProfileDto,JobSeeker>();
+            CreateMap<ApplyJobRequest, JobApplication>();
+            CreateMap<JobApplication, AppliedJobsDtos>();
+            CreateMap<CompanyRegistrationDtos, JobProviderCompany>().ReverseMap();
+            CreateMap<AddCompanyRequestobject, JobProviderCompany>().ReverseMap();
+            CreateMap<CompanyRegistrationDtos, AddCompanyRequestobject>().ReverseMap();
+            CreateMap<CompanyUpdateDtos, CompanyupdateRequest>().ReverseMap();
+            CreateMap<CompanyUpdateDtos, JobProviderCompany>().ReverseMap();
+            CreateMap<SavedJob, SavedJobsDtos>().ReverseMap();
+            CreateMap<JobProviderCompany, GetCompanyDetailsDto>();
+            CreateMap<InterviewSheduleObject, InterviewsheduleDtos>();
+            CreateMap<InterviewsheduleDtos, Interview>();
+            CreateMap<SheduledInterviewDto, Interview>();
+            CreateMap<Interview, SheduledInterviewDto>();
+            CreateMap<CompanyUser, CompanyMemberListDtos>().ReverseMap();
+            CreateMap<SavedJobRequest, SavedJob>().ReverseMap();
+
 
 
             CreateMap<JobPost, JobProviderDto>().ReverseMap();
             CreateMap<Domain.Models.JobSeeker, JobSeekerDto>().ReverseMap();
           
             CreateMap<CompanyUser, CompanyUsersDto>().ReverseMap();
-			//CreateMap<Resume, resumeDto>();
-   //         CreateMap<JobSeekerProfile, ProfileDTO>();
-   //         CreateMap<ProfileDTO,JobseekerProfileRequest>();
-   //         CreateMap<JobseekerProfileRequest, ProfileDTO>();
-   //         CreateMap<ProfileDTO, JobSeekerProfile>();
+            CreateMap<Resume, ResumeDto>();
+            CreateMap<JobSeekerProfile, ProfileDto>();
+            
+            CreateMap<ProfileDto, JobSeekerProfile>();
             CreateMap<SkillRequest, SkillDto>();
             CreateMap<SkillDto, Skill>();
 
@@ -104,84 +107,4 @@ namespace JobPortalSystem.API.Extensions
         }
     }
 }
-=======
-﻿using AutoMapper;
-using Domain.Application.Features.AuthUser.DTO;
-using Domain.Application.Features.Job.DTO;
-using Domain.Application.Features.Job.DTOs;
-using Domain.Application.Features.Login.DTO;
-using Domain.Application.Features.Profile.DTOs;
-using Domain.Application.Features.SignUp.DTO;
-using Domain.Models;
-using JobPortalSystem.API.Controllers.Admin.RequestObjects;
-using JobPortalSystem.API.Controllers.Chat.RequestObjects;
-using JobPortalSystem.API.Controllers.CompanyUser.RequestObjects;
-using JobPortalSystem.API.Controllers.Job.RequestObjects;
-using JobPortalSystem.API.Controllers.JobSeeker.RequestObjects;
 
-
-namespace JobPortalSystem.API.Extensions
-{
-    public class AutoMapperProfiles : Profile
-    {
-        public AutoMapperProfiles()
-        {
-            // Signup & Login
-            CreateMap<JobSeekerSignupRequestDto, SignUpRequest>().ReverseMap();
-            CreateMap<JobSeekerSignUpRequest, JobSeekerSignupRequestDto>().ReverseMap();
-            CreateMap<AuthUser, JobSeekerLoginDto>();
-
-            // Job Seeker Profile
-            CreateMap<JobSeekerProfileDTo, Domain.Models.JobSeeker>();
-        
-
-            CreateMap<JobSeekerProfile, ProfileDTO>();
-            //CreateMap<ProfileDTO, JobseekerProfileRequest>();
-            //CreateMap<JobseekerProfileRequest, ProfileDTO>();
-            CreateMap<ProfileDTO, JobSeekerProfile>();
-
-            // Resume
-            CreateMap<Resume, ResumeDto>();
-
-            // Qualification
-
-            CreateMap<QualificationRequest, JobseekerQualificationDTo>();
-            CreateMap<Qualification, JobseekerQualificationDTo>();
-            CreateMap<JobseekerQualificationDTo, Qualification>();
-
-            // Skills
-            CreateMap<Skill, SkillDto>();
-            CreateMap<SkillRequest, SkillDto>();
-            CreateMap<SkillDto, Skill>();
-
-            // Work Experience
-     
-            CreateMap<JobseekerWorkExperienceDTo, WorkExperience>();
-            CreateMap<WorkExperience, ExperienceDto>();
-
-            // Apply Job
-            CreateMap<ApplyJobRequest, JobApplication>();
-            CreateMap<JobApplication, AppliedJobsDtos>();
-          
-
-            // Saved Jobs
-            CreateMap<SavedJob, SavedJobsDtos>().ReverseMap();
-            CreateMap<SaveJobRequest, SavedJob>().ReverseMap();
-
-            // Job Listing
-       
-            CreateMap<JobPost, JobPostsDtos>().ReverseMap();
-
-            // Interview
-            //CreateMap<InterviewSheduleObject, InterviewsheduleDto>();
-            //CreateMap<InterviewsheduleDto, Interview>();
-            //CreateMap<SheduledInterviewDto, Interview>();
-            //CreateMap<Interview, SheduledInterviewDto>();
-
-            // Chat
-            CreateMap<AuthUser, ChatUserDto>().ReverseMap();
-        }
-    }
-}
-
->>>>>>> origin/nasilanasry

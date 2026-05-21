@@ -24,12 +24,7 @@ namespace Domain.Models
         [EmailAddress]
         public string Email { get; set; }
         public Status Status { get; set; }
-<<<<<<< HEAD
         public Enums.Role Role { get; set; }
 
-=======
-
-        public Enums.Role Role { get; set; }
->>>>>>> origin/nasilanasry
     }
 }

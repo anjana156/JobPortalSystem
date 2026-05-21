@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace Domain.Application.Features.Job.DTOs
+namespace Domain.Application.Features.Job.DTO
 {
 
     public class SavedJobsDtos

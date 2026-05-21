@@ -118,7 +118,7 @@ namespace Domain.Application.Features.JobProvider.Repositories
             {
                 jobToUpdate.JobTitle = Updatedjob.JobTitle;
                 jobToUpdate.JobSummary = Updatedjob.JobSummary;
-                jobToUpdate.LocationId = Updatedjob.LocationId;
+                jobToUpdate.Location_Id = Updatedjob.Location_Id;
                 jobToUpdate.Company = Updatedjob.Company;
                 jobToUpdate.JobCategory = Updatedjob.JobCategory;
                 jobToUpdate.Industry = Updatedjob.Industry;

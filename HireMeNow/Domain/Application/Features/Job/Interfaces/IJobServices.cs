@@ -1,38 +1,56 @@
 ﻿using Domain.Application.Features.Job.DTO;
-using Domain.Application.Features.Job.DTOs;
 using Domain.Helpers;
 using Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Domain.Application.Features.Job.DTO;
 
 namespace Domain.Application.Features.Job.Interfaces
 {
     public interface IJobServices
     {
+        // JOBS
 
-        public Task<List<JobPostsDtos>> GetJobs(Guid userId);
-        public Task<List<JobPostsDtos>> GetJobs();
-        public Task<List<JobPost>> GetJobsByCompany(Guid companyId);
+        Task<List<JobPostsDtos>> GetJobs();
 
-        public Task<List<JobPost>> GetJobsById(Guid companyId, Guid jobId);
+        Task<List<JobPostsDtos>> GetJobs(Guid userId);
+
+        Task<List<JobPost>> GetJobsByCompany(Guid companyId);
+
+        Task<JobPost?> GetJobsById(
+            Guid companyId,
+            Guid jobId);
 
 
-        Task<PagedList<SavedJob>> GetAllSavedJobsOfSeeker(Guid jobseekerId, JobListParams param);
 
-        Task<PagedList<AppliedJobsDtos>> GetAllAppliedJobs(Guid jobseekerId, JobListParams param);
+
+        // SAVED JOBS
+
+        Task<PagedList<SavedJob>>
+            GetAllSavedJobsOfSeeker(
+                Guid jobSeekerId,
+                JobListParams param);
+
+        Task<SavedJob> SaveJob(SavedJob savedJob);
+
+        Task<SavedJobsDtos?> GetSavedJobById(
+            Guid jobSeekerId,
+            Guid savedJobId);
+
+        SavedJob? RemoveSavedJob(
+            Guid jobSeekerId,
+            Guid jobId);
+
+        // APPLIED JOBS
+
+
+        Task<PagedList<AppliedJobsDtos>>
+            GetAllAppliedJobs(
+                Guid jobSeekerId,
+                JobListParams param);
+
         bool ApplyJob(JobApplication applyJob);
-        bool CancelAppliedJob(Guid jobseekerId, Guid JobApplicationId);
-        SavedJobsDtos GetsavedJobById(Guid jobseekerId, Guid SavedJobId);
 
-
-        SavedJob RemoveSavedJob(Guid seekerId, Guid jobid);
-        Task<SavedJob> saveJob(SavedJob savedJob);
-
-
-
+        bool CancelAppliedJob(
+            Guid jobSeekerId,
+            Guid jobApplicationId);
     }
-
 }

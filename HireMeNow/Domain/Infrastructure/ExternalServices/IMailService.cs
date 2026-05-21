@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Service
+namespace Domain.Infrastructure.ExternalServices
 {
-    public interface IEmailService
+    public interface IMailService
     {
         Task SendEmailAsync(MailRequest mailRequest);
     }

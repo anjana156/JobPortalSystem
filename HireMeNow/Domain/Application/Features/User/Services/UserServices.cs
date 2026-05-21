@@ -1,4 +1,4 @@
-﻿using Domain.Service.User.Interface;
+﻿using Domain.Application.Features.User.Interfaces;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Service.User
+namespace Domain.Application.Features.User.Services
 {
 	public class UserServices:IUserService
 	{

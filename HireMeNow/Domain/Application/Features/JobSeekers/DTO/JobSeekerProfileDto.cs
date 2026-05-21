@@ -6,9 +6,9 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace Domain.Application.Features.Profile.DTOs
+namespace Domain.Application.Features.Profile.DTO
 {
-    public class JobSeekerProfileDTo
+    public class JobSeekerProfileDto
     {
         public string? UserName { get; set; }
 

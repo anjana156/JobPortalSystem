@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Application.Features.Profile.DTOs
+namespace Domain.Application.Features.Profile.DTO
 {
     public class ExperienceDto
     {
@@ -17,6 +17,8 @@ namespace Domain.Application.Features.Profile.DTOs
         public string Summary { get; set; } = null!;
 
         public DateTime ServiceStart { get; set; }
+
+        public DateTime ServiceEnd { get; set; }
 
     }
 }

@@ -3,11 +3,13 @@ using Domain.Application.Features.Admin.DTO;
 using Domain.Application.Features.Admin.Interfaces;
 using Domain.Application.Features.Profile.DTO;
 using Domain.Models;
-using Domain.Service.Login.Interfaces;
+using Domain.Application.Features.Admin.Services;
+using Domain.Application.Features.User.Interfaces;
 using JobPortalSystem.API.Controllers.Admin.RequestObjects;
 using JobPortalSystem.Controllers;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Domain.Application.Features.JobSeekers.DTO;
 
 namespace JobPortalSystem.API.Controllers.Admin
 {

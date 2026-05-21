@@ -17,9 +17,9 @@ namespace Domain.Application.Features.JobProvider.Repositories
     {
         IJobProviderRepository _jobProviderRepository;
         IMapper _mapper;
-        IEmailService _emailService;
+        IMailService _emailService;
         IAuthUserRepository _authUserRepository;
-        public JobProviderService(IJobProviderRepository jobProviderRepository, IMapper mapper, IEmailService emailService, IAuthUserRepository authUserRepository)
+        public JobProviderService(IJobProviderRepository jobProviderRepository, IMapper mapper, IMailService emailService, IAuthUserRepository authUserRepository)
         {
             _jobProviderRepository = jobProviderRepository;
             _mapper = mapper;

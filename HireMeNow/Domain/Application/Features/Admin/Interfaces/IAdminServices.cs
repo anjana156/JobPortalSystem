@@ -1,4 +1,5 @@
-﻿using Domain.Application.Features.Profile.DTO;
+﻿using Domain.Application.Features.JobSeekers.DTO;
+using Domain.Application.Features.Profile.DTO;
 using Domain.Models;
 
 namespace Domain.Application.Features.Admin.Interfaces

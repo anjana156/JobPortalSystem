@@ -7,6 +7,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using JobSeekerEntity = Domain.Models.JobSeeker;
+
 
 
 
@@ -29,7 +31,7 @@ namespace Domain.Application.Features.Authuser.Repositories
         {
             authUser.Role = Enums.Role.JOB_SEEKER;
             await _context.AuthUsers.AddAsync(authUser);
-            JobSeeker jobSeeker = mapper.Map<JobSeeker>(authUser);
+            JobSeekerEntity jobSeeker = mapper.Map<JobSeekerEntity>(authUser);
             await _context.JobSeekers.AddAsync(jobSeeker);
             JobSeekerProfile profile = new();
             profile.JobSeekerId = jobSeeker.Id;

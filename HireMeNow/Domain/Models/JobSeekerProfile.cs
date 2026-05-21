@@ -14,7 +14,7 @@ namespace Domain.Models
         [Key]
         [Required]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public Guid Id { get; set; } = Guid.NewGuid();
+        public Guid Id { get; set; } 
 
         public Guid? ResumeId { get; set; }
         [ForeignKey(nameof(JobSeeker))]

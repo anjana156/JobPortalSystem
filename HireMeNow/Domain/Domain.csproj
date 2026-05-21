@@ -28,7 +28,6 @@
 		<Folder Include="Application\Features\Chat\Services\" />
 
 		<!-- Job -->
-		<Folder Include="Application\Features\Job\DTO\" />
 		<Folder Include="Application\Features\Job\Interfaces\" />
 		<Folder Include="Application\Features\Job\Repositories\" />
 		<Folder Include="Application\Features\Job\Services\" />
@@ -40,12 +39,8 @@
 		<Folder Include="Application\Features\JobProvider\Services\" />
 
 		<!-- Job Seekers -->
-		<Folder Include="Application\Features\JobSeekers\DTO\" />
 
 		<!-- Profile -->
-		<Folder Include="Application\Features\Profile\Interfaces\" />
-		<Folder Include="Application\Features\Profile\Repositories\" />
-		<Folder Include="Application\Features\Profile\Services\" />
 
 		<!-- User -->
 		<Folder Include="Application\Features\User\DTO\" />
